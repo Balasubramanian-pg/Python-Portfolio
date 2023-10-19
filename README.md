@@ -1,5 +1,5 @@
 # Python-Project-Ideas
-
+Mainly Handling EDA
 Web scraping, also known as web data extraction, is the process of collecting information from websites. This can be done manually, but it is often done using automated tools and software. The data collected can be used for a variety of purposes, such as price comparison, data analysis, and research.
 
 There are a number of libraries and frameworks available in various programming languages, such as Python, Java, and JavaScript, that can be used for web scraping. Some popular Python libraries include Beautiful Soup and Scrapy, while Java developers can use JSoup and web scraping frameworks such as Selenium.
