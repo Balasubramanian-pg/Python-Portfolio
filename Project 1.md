@@ -1,6 +1,5 @@
 Here’s your structured Markdown file:  
 
-```markdown
 # Beauty in Code: The Art of Elegant Python
 
 ## What Makes Code Beautiful?
@@ -35,8 +34,6 @@ def memoize(func):
 
     return wrapper
 ```
-
----
 
 ## Why This Code is Beautiful
 
