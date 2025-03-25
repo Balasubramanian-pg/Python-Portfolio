@@ -39,6 +39,76 @@ For a BI analyst, automating data tasks, generating reports, and streamlining wo
 
 ## How to Use This Solution
 
+import pandas as pd
+import openpyxl  # For more advanced Excel writing (if needed)
+from datetime import datetime
+
+```python
+def analyze_and_report(data_filepath, report_filepath):
+    """
+    Analyzes data from a CSV file, performs key BI calculations,
+    and generates an Excel report with formatted tables and charts.
+
+    Args:
+        data_filepath (str): Path to the input CSV data file.
+        report_filepath (str): Path to save the generated Excel report.
+    """
+
+    try:
+        # Load Data
+        df = pd.read_csv(data_filepath)
+        print(f"Data loaded successfully from: {data_filepath}")
+
+        # Data Cleaning and Preprocessing
+        df.dropna(subset=['Sales', 'Region'], inplace=True)
+        df['Date'] = pd.to_datetime(df['Date'])
+
+        # Key BI Analysis
+        sales_by_region = df.groupby('Region')['Sales'].sum().reset_index()
+        sales_by_region.rename(columns={'Sales': 'Total Sales'}, inplace=True)
+
+        avg_order_value = df.groupby('Region')['Sales'].mean().reset_index()
+        avg_order_value.rename(columns={'Sales': 'Average Order Value'}, inplace=True)
+
+        monthly_sales = df.groupby(pd.Grouper(key='Date', freq='M'))['Sales'].sum().reset_index()
+        monthly_sales['Month'] = monthly_sales['Date'].dt.strftime('%Y-%m')
+        monthly_sales.drop('Date', axis=1, inplace=True)
+        monthly_sales.rename(columns={'Sales': 'Monthly Sales'}, inplace=True)
+
+        # Generate Excel Report
+        excel_writer = pd.ExcelWriter(report_filepath, engine='xlsxwriter')
+
+        sales_by_region.to_excel(excel_writer, sheet_name='Summary', startrow=1, startcol=1, index=False)
+        avg_order_value.to_excel(excel_writer, sheet_name='Summary', startrow=1, startcol=4, index=False)
+        monthly_sales.to_excel(excel_writer, sheet_name='Summary', startrow=1, startcol=7, index=False)
+
+        # Formatting
+        workbook = excel_writer.book
+        summary_sheet = excel_writer.sheets['Summary']
+        header_format = workbook.add_format({'bold': True, 'fg_color': '#D7E4BC', 'border': 1})
+
+        for col_num, value in enumerate(sales_by_region.columns.values):
+            summary_sheet.write(0, 1 + col_num, value, header_format)
+        for col_num, value in enumerate(avg_order_value.columns.values):
+            summary_sheet.write(0, 4 + col_num, value, header_format)
+        for col_num, value in enumerate(monthly_sales.columns.values):
+            summary_sheet.write(0, 7 + col_num, value, header_format)
+
+        df.to_excel(excel_writer, sheet_name='Raw Data', index=False)
+        excel_writer.close()
+        print(f"Excel report generated successfully at: {report_filepath}")
+    
+    except FileNotFoundError:
+        print(f"Error: Data file not found at: {data_filepath}")
+    except Exception as e:
+        print(f"An error occurred during analysis and report generation: {e}")
+
+if __name__ == "__main__":
+    data_file = 'sales_data.csv'
+    report_file = f'sales_report_{datetime.now().strftime("%Y%m%d_%H%M%S")}.xlsx'
+    analyze_and_report(data_file, report_file)
+```
+
 ### **1. Setup**
 Save the Python script as a `.py` file (e.g., `bi_report_generator.py`).
 
