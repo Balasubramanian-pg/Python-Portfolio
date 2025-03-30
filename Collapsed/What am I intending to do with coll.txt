@@ -1,9 +1,0 @@
-What am I intending to do with collapsed stocks?
-
-Here are a few thought processes:
-
-1. Using python do some basic EDA - Involves all the basic statements, 
-could involve data cleaning and data normalization
-2. Ploting using python - I don't know how to plot using seaborn and matplotlib
-3. Draw inferences- the idea is to show the relation among stock returns and their indcidence on collapse
-4. Use regression to show how the collapse occured - watch a few videos to understand why the banks collapsed and find a dependent and independent variable.
