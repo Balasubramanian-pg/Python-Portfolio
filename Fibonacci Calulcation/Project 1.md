@@ -1,5 +1,3 @@
-Here’s your structured Markdown file:  
-
 # Beauty in Code: The Art of Elegant Python
 
 ## What Makes Code Beautiful?
