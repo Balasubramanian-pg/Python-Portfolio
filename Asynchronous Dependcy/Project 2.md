@@ -1,8 +1,4 @@
-Here's another complex Python example, maintaining the same structure and breakdown. This one focuses on **asynchronous metaprogramming**, combining **metaclasses, decorators, coroutines, and dependency injection**—a pattern seen in high-performance web frameworks, AI pipelines, or distributed computing systems.
-
----
-
-## **Example: Asynchronous Dependency Injection Framework**
+# **Asynchronous Dependency Injection Framework**
 
 This code builds an **async-first dependency injection system** using **metaclasses, descriptors, decorators, and async/await patterns**. It allows services to be dynamically injected, supporting **lazy evaluation**, **caching**, and **async service resolution**.
 
