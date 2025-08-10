@@ -13,100 +13,434 @@ Welcome to this collection of Python project ideas designed to help you build pr
 
 ---
 
-### Project Ideas & Descriptions
+### Project Descriptions
+This document serves as a central directory for a diverse collection of Python projects. The portfolio spans from fundamental data analysis and visualization to machine learning, data scraping, and automation scripts.
 
-Here are **30 Python project ideas** to help you develop your skills:
+---
 
-1. **Stock Market Data Analysis**  
-   Scrape historical stock prices from Yahoo Finance or use a financial API. Analyze trends, moving averages, and volatility.
+## Advanced EDA
 
-2. **Customer Sentiment Analysis from Reviews**  
-   Scrape customer reviews from e-commerce sites like Amazon or Yelp, perform sentiment analysis, and visualize the results with word clouds.
+A project demonstrating advanced techniques in exploratory data analysis and data preprocessing.
 
-3. **Weather Data Analysis**  
-   Scrape weather data from websites or APIs and analyze temperature trends, precipitation, and seasonal variations.
+*   [Advanced Data Preprocessing Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Advanced%20EDA/advance-data-preprocessing.ipynb)
 
-4. **E-commerce Price Tracker**  
-   Build a tool to scrape e-commerce websites for product prices over time. Analyze price trends and detect significant price changes.
+## Airbnb Analysis
 
-5. **Real Estate Market Analysis**  
-   Scrape property listings from real estate websites to analyze property prices by location, size, and type. Visualize trends using a heatmap.
+An analysis of New York City Airbnb data to uncover trends and insights.
 
-6. **Job Market Data Analysis**  
-   Scrape job listings for salary data, qualifications, and job types. Perform EDA to identify trends in demand and salaries by job role.
+*   [New York City Airbnb Starter Analysis](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Airbnb/Starter%20New%20York%20City%20Airbnb.ipynb)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Airbnb/Dataset)
 
-7. **Movie Ratings Dashboard**  
-   Scrape movie ratings from IMDb or Rotten Tomatoes, and analyze the most highly rated genres or directors over time.
+## Apple Watch Data Analysis
 
-8. **Cryptocurrency Data Analysis**  
-   Use the CoinGecko or CryptoCompare API to collect cryptocurrency data. Analyze market volatility and trends for various coins.
+Data processing and predictive modeling using health data from Apple Watch and Fitbit devices.
 
-9. **Twitter Sentiment Analysis**  
-   Scrape tweets on a specific topic using the Twitter API and analyze public sentiment through word clouds and sentiment scores.
+*   [Data Processing and Prediction Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Apple%20Watch%20Data%20Analysis/Apple%20Watch%20and%20Fitbit%20Data%20Processing%20and%20Predition.ipynb)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Apple%20Watch%20Data%20Analysis/Dataset)
 
-10. **Bookstore Price Comparison**  
-    Scrape product prices from multiple online bookstores and compare them. Use pandas to analyze and display price discrepancies.
+## Asynchronous Dependency
 
-11. **Global Health Data Analysis**  
-    Scrape health statistics (e.g., disease rates, vaccination coverage) and perform trend analysis by country or region.
+Documentation outlining a task related to handling asynchronous dependencies.
 
-12. **COVID-19 Data Visualization**  
-    Use COVID-19 statistics from public sources to analyze infection rates, recovery rates, and vaccination trends globally.
+*   [Task Overview](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Asynchronous%20Dependency/Task%20Overview.md)
 
-13. **Real-Time Traffic Data Dashboard**  
-    Scrape traffic data from government APIs or websites, analyze real-time traffic patterns, and visualize congestion hotspots.
+## Automatic Reporting
 
-14. **Restaurant Rating Visualization**  
-    Scrape Yelp or TripAdvisor data for restaurant ratings and compare ratings for restaurants across cities, neighborhoods, or types of cuisine.
+A project focused on generating automated reports from data.
 
-15. **Air Quality Data Analysis**  
-    Scrape air quality data from various sources and analyze trends in pollution levels over time. Visualize air quality comparisons by region.
+*   [Project 3: Automatic Reporting](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Automatic%20Reporting/Project%203.md)
 
-16. **Flight Price Forecasting**  
-    Scrape flight prices from travel websites and analyze historical data to predict trends in ticket prices for specific routes.
+## Banking Crisis Tweets Analysis
 
-17. **Employee Attendance Dashboard**  
-    Build a tool to track employee attendance, visualizing trends in punctuality, absenteeism, and overtime using interactive charts.
+A dataset containing tweets related to a banking crisis, ready for sentiment analysis or topic modeling.
 
-18. **Sentiment Analysis on Product Reviews**  
-    Scrape e-commerce product reviews and analyze customer sentiment using text classification models. Visualize positive/negative feedback ratios.
+*   [Tweets Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Banking%20Crisis%20Tweets/Dataset/tweets.csv)
 
-19. **Stock Portfolio Analysis**  
-    Track and visualize the performance of stocks in a portfolio. Use historical stock data to generate return rates and predict future trends.
+## Campaign Analysis
 
-20. **Sports Statistics Dashboard**  
-    Scrape sports statistics (e.g., player scores, team rankings) from websites and analyze trends over seasons using line and bar charts.
+An exploratory data analysis of a marketing campaign to measure its effectiveness.
 
-21. **Online Auction Price Analysis**  
-    Scrape auction prices from websites and analyze bidding patterns, trends, and the impact of auction dynamics on final prices.
+*   [Campaign Analysis EDA Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Campaign%20Analysis/Campaign%20Analysis%20EDA.ipynb)
+*   [Task Overview](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Campaign%20Analysis/Task%20Overview.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Campaign%20Analysis/Dataset)
 
-22. **Customer Segmentation Analysis**  
-    Collect customer data (e.g., demographics, purchasing habits) from online sources and use clustering algorithms (K-means) to create segments.
+## Cheat Sheets
 
-23. **Social Media Engagement Analysis**  
-    Scrape social media data (likes, shares, comments) to analyze engagement rates. Visualize trends and compare engagement across platforms.
+A collection of quick-reference cheat sheets for Python and its core data science libraries.
 
-24. **Supply Chain Data Analysis**  
-    Scrape supply chain or logistics data and analyze lead times, order status, and delays in delivery processes.
+*   [Numpy Cheat Sheet (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Cheat%20Sheet/Numpy%20Cheat%20Sheet.pdf)
+*   [Pandas Cheat Sheet (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Cheat%20Sheet/Pandas%20Cheat%20Sheet.pdf)
+*   [Python Basics Cheat Sheet (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Cheat%20Sheet/Python%20Basics%20Cheat%20Sheet.pdf)
+*   [General Python Cheat Sheet (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Cheat%20Sheet/Python%20Cheat%20Sheet.pdf)
 
-25. **Sales Forecasting**  
-    Use historical sales data to build time-series models that forecast future sales, identify trends, and suggest inventory adjustments.
+## Classification & Clustering
 
-26. **Sports Betting Odds Analysis**  
-    Scrape betting odds and match outcomes to identify patterns and build models predicting betting odds accuracy.
+A project demonstrating classification and clustering machine learning techniques.
 
-27. **Website Traffic Analysis**  
-    Use the Google Analytics API to scrape website traffic data. Analyze user behavior, top-performing pages, and engagement over time.
+*   [Project Overview (README)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Classification%20%26%20Clustering/Read%20Me.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Classification%20%26%20Clustering/Dataset)
 
-28. **Employee Performance Analysis**  
-    Scrape or use internal data to analyze employee performance based on key metrics like productivity, attendance, and KPIs.
+## Clustered Exploratory Analysis
 
-29. **Music Data Visualization**  
-    Scrape data from music streaming platforms like Spotify, analyze trends in popular genres, and visualize listening patterns.
+An analysis of store sales data using clustering methods.
 
-30. **Food Delivery Trend Analysis**  
-    Scrape food delivery platforms for restaurant ratings, delivery times, and customer reviews. Analyze trends in restaurant types and delivery efficiency.
+*   [Store Sales Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Clustered%20Exploratory%20Analysis/Store%20Sales%20Analysis.ipynb)
 
+## Collapsed Project Structure
+
+Documentation for a project, detailing its approach and structure.
+
+*   [Project Approach Note](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Collapsed/Approach%20Note.md)
+*   [Project Structure](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Collapsed/Structure.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Collapsed/Dataset)
+
+## Companies Information Dataset
+
+A dataset containing information about various companies.
+
+*   [Companies Information Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Companies%20Information/Dataset/Companies_Information.csv)
+
+## Computer Stocks Analysis
+
+An analysis project focused on computer company stocks.
+
+*   [Project Overview (README)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Computer%20Stocks/Read%20Me.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Computer%20Stocks/Dataset)
+
+## Convert Images to String (OCR)
+
+Automation scripts for converting image files into other formats like strings (OCR) or PDFs.
+
+*   [Image to String Automation Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Convert%20Images%20to%20String/Image%20to%20String%20Automation.ipynb)
+*   [PNG to PDF Conversion Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Convert%20Images%20to%20String/PNG%20TO%20PDF.py)
+*   [Trial Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Convert%20Images%20to%20String/Trial.py)
+
+## Data Scraper
+
+A collection of web scraping tools, including scripts for IMDB and LinkedIn.
+
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Data%20Scrapper/Dataset)
+*   [IMDB Scraper Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Data%20Scrapper/IMDB)
+*   [LinkedIn Scraper Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Data%20Scrapper/Linkedin)
+
+## Dataset (Stock top performing 5 sectors)
+
+A collection of datasets for top-performing stocks across five key sectors.
+
+*   [Automobiles Sector Data](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Dataset%20(Stock%20top%20performing%205%20sectos)/Automobiles)
+*   [Banking Sector Data](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Dataset%20(Stock%20top%20performing%205%20sectos)/Banking)
+*   [Energy Sector Data](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Dataset%20(Stock%20top%20performing%205%20sectos)/Energy)
+*   [FMCG Sector Data](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Dataset%20(Stock%20top%20performing%205%20sectos)/FMCG)
+*   [IT Sector Data](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Dataset%20(Stock%20top%20performing%205%20sectos)/IT)
+*   [Pharmaceuticals Sector Data](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Dataset%20(Stock%20top%20performing%205%20sectos)/Pharmaceuticals)
+
+## Email Address Scraper
+
+A tool for scraping email addresses, with a specific implementation for Gmail.
+
+*   [Project Overview (README)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Email%20Address%20Scraper/Read%20Me.md)
+*   [Gmail Email Scraper Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Email%20Address%20Scraper/Email%20Address%20Scraper%20(Gmail).ipynb)
+*   [Project Logo](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Email%20Address%20Scraper/Email%20Address%20Scraper.svg)
+
+## Erling Haaland Performance Analysis
+
+An analysis of footballer Erling Haaland's performance data.
+
+*   [Haaland Performance Data (XLSX)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Erling%20Haaland/Haaland.xlsx)
+*   [Dashboard Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Erling%20Haaland/Dashboard)
+
+## Exploratory Data Analysis & Hypothesis Testing
+
+A collection of notebooks demonstrating EDA and hypothesis testing.
+
+*   [Amar's Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Exploratory%20Data%20Analysis%20%26%20Hypothesis%20Testing/Amar.ipynb)
+*   [Ananthan's Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Exploratory%20Data%20Analysis%20%26%20Hypothesis%20Testing/Ananthan.ipynb)
+*   [Ananthu's Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Exploratory%20Data%20Analysis%20%26%20Hypothesis%20Testing/Ananthu.ipynb)
+*   [Anil's Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Exploratory%20Data%20Analysis%20%26%20Hypothesis%20Testing/Anil.ipynb)
+*   [Haritha's Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Exploratory%20Data%20Analysis%20%26%20Hypothesis%20Testing/Haritha.ipynb)
+
+## Feature Engineering
+
+A guide to feature engineering techniques in Python.
+
+*   [Annotated Guide to Feature Engineering (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Feature%20Engineering/Annotated%20Follow%20Along%20Guide%20Feature%20Engineering%20With%20Python.pdf)
+
+## Fibonacci Calculation
+
+A project demonstrating the calculation of Fibonacci numbers.
+
+*   [Project 1: Fibonacci Calculation](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Fibonacci%20Calulcation/Project%201.md)
+
+## Forbes Billionaires Analysis
+
+An in-depth analysis of the Forbes billionaires list using Seaborn for visualization.
+
+*   [Full Billionaires Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Forbes%20Billionaires%20Analysis/full-bil-analysis-using-seaborn-and-subplots.ipynb)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Forbes%20Billionaires%20Analysis/Dataset)
+
+## Genome Prediction
+
+A dataset for use in genomic prediction tasks.
+
+*   [Gene Symbol Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Genome%20Prediction/Dataset/Gene%20Symbol.csv)
+
+## Home Loan Approval Prediction
+
+A project to predict home loan approval using XGBoost.
+
+*   [Loan Approval Classification Notebook (XGBoost)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Home%20Loan%20Approval%20Prediction/classify-home-loan-approval-xgb.ipynb)
+*   [Trained Model File (HDF5)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Home%20Loan%20Approval%20Prediction/model.h5)
+*   [Training Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Home%20Loan%20Approval%20Prediction/loan_sanction_train.csv)
+*   [Test Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Home%20Loan%20Approval%20Prediction/loan_sanction_test.csv)
+
+## House Price Listing Analysis
+
+A comprehensive exploratory data analysis of house price listings.
+
+*   [Comprehensive Data Exploration Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/House%20Price%20Listing/Comprehensive%20Data%20Exploration%20Of%20House%20Price%20listing.ipynb)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/House%20Price%20Listing/Dataset)
+*   [Output Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/House%20Price%20Listing/Output)
+
+## Indian Population Analysis
+
+An analysis project focused on the population of India.
+
+*   [Project Overview (README)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Indian%20Population/Read%20Me.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Indian%20Population/Dataset)
+
+## Internship Fittlyf
+
+Project materials from an internship with Fittlyf.
+
+*   [Problem Statement](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Internship%20Fittlyf/Problem%20Statement.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Internship%20Fittlyf/Dataset)
+
+## Intro to Python
+
+Reference guides covering the fundamentals of the Python language.
+
+*   [Reference Guide: Conditional Statements](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Intro%20to%20Python/Reference%20Guide%20Conditional%20Statements.docx)
+*   [Reference Guide: Functions](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Intro%20to%20Python/Reference%20Guide%20Functions.docx)
+*   [Reference Guide: Lists](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Intro%20to%20Python/Reference%20Guide%20Lists.docx)
+*   [Reference Guide: Python Operators](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Intro%20to%20Python/Reference%20Guide%20Python%20operators.docx)
+
+## K-Means Clustering
+
+An example of K-Means clustering applied to the Iris dataset.
+
+*   [K-Means on Iris Dataset Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/K%20Means%20Clustering/K%20Means%20Clustering%20in%20iris%20dataset.ipynb)
+
+## Loan Default Prediction
+
+A machine learning project to predict loan defaults.
+
+*   [Loan Default Prediction Final Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Loan%20Default%20Prediction/Loan%20Default%20Prediction%20Final.ipynb)
+
+## Market Basket Analysis
+
+A project using association rules to perform market basket analysis.
+
+*   [Problem Statement](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Market%20Basket%20Analysis/Problem%20Statement.md)
+*   [Association Rule Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Market%20Basket%20Analysis/Association%20Rule.py)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Market%20Basket%20Analysis/Dataset)
+
+## Marketing Analytics With Meta
+
+Resources and assessments for marketing analytics, focusing on Meta (Facebook).
+
+*   [Measuring Facebook in Marketing Mix Models (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Marketing%20Analytics%20With%20Meta/Measuring%20Facebook%20Accurately%20in%20Marketing%20Mix%20Models.pdf)
+*   [Presentation Results Template (PPTX)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Marketing%20Analytics%20With%20Meta/Presentation%20Results%20Template.pptx)
+*   [Week 1 Assessment (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Marketing%20Analytics%20With%20Meta/Week%201%20Assessment.pdf)
+
+## Metacritic Rating Analysis
+
+An analysis of video game ratings data from Metacritic.
+
+*   [Metacritic Data Analysis Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Metacritic%20Rating/Metacritic%20Data%20Analysis.py)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Metacritic%20Rating/Dataset)
+
+## Missing State Identifier
+
+A notebook designed to identify missing state information in a dataset.
+
+*   [Missing State Identifier Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Missing%20State/Missing%20State%20Identifier.ipynb)
+
+## Nifty 50 Analysis
+
+A folder for a project analyzing India's Nifty 50 stock market index.
+
+*   [Project Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Nifty%2050%20Analysis)
+
+## Obesity Classification Dataset
+
+A dataset for classifying obesity levels.
+
+*   [Obesity Classification Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Obseity%20Classification/Dataset/Obesity%20Classification.csv)
+
+## OCR Table Reader
+
+A project that uses Optical Character Recognition (OCR) to read tables from documents.
+
+*   [OCR Reader Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/OCR%20Table/OCR%20Reader.ipynb)
+
+## PDF To Excel Converter
+
+Scripts for extracting data from PDF files and converting it into Excel format using the Tabula library.
+
+*   [Tabula PDF to Excel Extraction Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/PDF%20To%20Excel/Using%20Tabula%20to%20Extract%20Data%20From%20PDF%20to%20Excel.ipynb)
+*   [Helper Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/PDF%20To%20Excel/They%20See%20Me%20Rolling.py)
+
+## Practice Datasets
+
+A collection of various datasets for practice and exploration.
+
+*   [Mock Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/MOCK_DATA.csv)
+*   [Insurance Data (XLSX)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/My%20Insurance%20Data.xlsx)
+*   [Billionaires Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/billionaires.csv)
+*   [Data Science Salaries (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/ds_salaries.csv)
+*   [Football Boots Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/footballbootsdb.csv)
+*   [Graduation Rate Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/graduation_rate.csv)
+*   [IMF Data Export (XLS)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Practice%20DataSet/imf-dm-export-20230513.xls)
+
+## Premier League Analysis
+
+Data and analysis related to the English Premier League.
+
+*   **Player Stats (2022-23)**
+    *   [Player Stats Analysis & Visualization Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Premier%20League%20Player%20Stats/premier-league-data-analysis-and-visualization.ipynb)
+    *   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Premier%20League%20Player%20Stats/Dataset)
+*   **Team & Match Results (2022-23)**
+    *   [Club Information (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Premier%20League/Club%20Info%20(2022-23).csv)
+    *   [Match Results (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Premier%20League/Results%20(2022-23).csv)
+
+## Red Dead Redemption 2 Analysis
+
+An analysis project for the game Red Dead Redemption 2, including a Power BI file.
+
+*   [Red Dead Redemption 2 Power BI File](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Red%20dead%20redemption/RDR%202.pbix)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Red%20dead%20redemption/Dataset)
+
+## Sensitivity Analysis for Mini Project
+
+A sensitivity analysis performed for a mini-project, complete with context and data.
+
+*   [Sensitivity Analysis Walkthrough](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sensitivity%20Analysis%20for%20Mini%20Project/Sensitivity%20Analysis.md)
+*   [Sensitivity Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sensitivity%20Analysis%20for%20Mini%20Project/Sensitivity%20Analysis.ipynb)
+*   [Project Context](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Sensitivity%20Analysis%20for%20Mini%20Project/Context)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Sensitivity%20Analysis%20for%20Mini%20Project/Dataset)
+
+## Sentiment Analysis (ML Master Project)
+
+A complete machine learning project for sentiment analysis, including preprocessing, feature extraction, training, and a server component.
+
+*   [Project Overview (README)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/README.md)
+*   [Main Execution Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/main.py)
+*   [Model Training Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/train.py)
+*   [Classification Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/classifiation.py)
+*   [Flask Server Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/server.py)
+*   [Preprocessing Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/preprocess.py)
+*   [Feature Extraction Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/feature_extraction.py)
+*   [FastText Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/ft.py)
+*   [Constants File](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/constants.py)
+*   [Project Requirements](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/requirements.txt)
+*   [Conda Environments](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20ML%20Part-Master/environment.yml)
+*   [Data Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Sentiment%20Analysis%20ML%20Part-Master/Data)
+
+## Sentiment Analysis (Project Specs & Resources)
+
+Documentation, notebooks, and resources for a sentiment analysis project, covering supervised, unsupervised, and text normalization methods.
+
+*   [Internship Project Documentation (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20Project%20Specs%20n%20Resources/Sentiment%20Analysis%20Codig%20Internship%20Docs.pdf)
+*   [Supervised Sentiment Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20Project%20Specs%20n%20Resources/Sentiment%20Analysis%20-%20Supervised.ipynb)
+*   [Unsupervised Lexical Sentiment Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20Project%20Specs%20n%20Resources/Sentiment%20Analysis%20-%20Unsupervised%20Lexical.ipynb)
+*   [Text Normalization Demo Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20Project%20Specs%20n%20Resources/Text%20Normalization%20Demo.ipynb)
+*   [Text Normalizer Utility Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20Project%20Specs%20n%20Resources/text_normalizer.py)
+*   [Contractions Utility Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Sentiment%20Analysis%20Project%20Specs%20n%20Resources/contractions.py)
+
+## Skincare Review NLP
+
+A dataset of Ulta skincare reviews for Natural Language Processing (NLP) tasks.
+
+*   [Ulta Skincare Reviews Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Skincare%20Review%20NLP/Ulta%20Skincare%20Reviews.csv)
+
+## Spotify Data Analysis & Scraping
+
+Projects related to scraping and analyzing Spotify data.
+
+*   **Exploratory Data Analysis**
+    *   [Best Songs on Spotify (2000-2023) Dataset](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Spotify%20Exploratory%20Data%20Analysis%20%26%20Visualization/Dataset/Best%20Songs%20on%20Spotify%20from%202000-2023.csv)
+*   **Spotify Scrapers**
+    *   [Spotify Artist Album Scraper Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Spotify%20Scraper/Spotify%20Album%20Scraper/Spotify%20Artist%20Album%20Scraper.py)
+    *   [Spotify Playlist Data Scraper Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Spotify%20Scraper/Spotify%20Album%20Scraper/Spotify%20Playlist%20Data%20Scraper)
+    *   **Scraped Artist Data**
+        *   [21 Savage Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Spotify%20Scraper/Spotify%20Album%20Scraper/21%20savage_data.csv)
+        *   [Eminem Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Spotify%20Scraper/Spotify%20Album%20Scraper/eminem_data.csv)
+        *   [J. Cole Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Spotify%20Scraper/Spotify%20Album%20Scraper/jcole_data.csv)
+        *   [Kendrick Lamar Data (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Spotify%20Scraper/Spotify%20Album%20Scraper/kenny_data.csv)
+
+## Step Analysis
+
+Notebooks demonstrating anomaly detection and data extraction from PDFs.
+
+*   [Anomaly Detection Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Step%20Analysis/Anamoly%20Detection.ipynb)
+*   [Read From PDF Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Step%20Analysis/Read%20From%20PDF.ipynb)
+
+## Story Generator
+
+A Python script that programmatically generates stories.
+
+*   [Story Generator Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Story%20Generator/Story%20Generator.py)
+
+## Top Mutual Funds Dataset
+
+A comprehensive dataset of top-performing mutual funds.
+
+*   [Comprehensive Mutual Funds Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Top%20Mutual%20Funds/Comprehensive%20Mutual%20Funds%20Data.csv)
+
+## Traffic Volume & Weather Prediction
+
+A project to analyze and predict traffic volume based on weather conditions.
+
+*   [Traffic Volume vs Weather Project Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Traffic%20Volume%20%26%20Weather%20Prediction/Traffic%20Volume%20vs%20Weather%20Project.ipynb)
+
+## UK Consumer Trends (1997-2022)
+
+An analysis of consumer spending trends in the UK over 25 years.
+
+*   [UK Consumer Trends Analysis](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/UK%20Consumer%20Trends%20(1997-22)/UK%20Consumer%20Trends.md)
+*   [Consumer Trends Q4 2022 Dataset (XLS)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/UK%20Consumer%20Trends%20(1997-22)/consumertrendsq42022cpnsa.xls)
+
+## US Tornado Database (1950-2021)
+
+A historical dataset of tornado occurrences in the United States.
+
+*   [US Tornado Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/US%20Tornado%20Database/Dataset/US%20Tornado%20Dataset%20(1950-2021).csv)
+
+## Universities Dataset
+
+A dataset listing top universities for Computer Science.
+
+*   [Top Unviersities for CS Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Universities/Top%20Unviersities%20for%20Computer%20Science.csv)
+
+## Wine Quality (Red) Analysis
+
+An analysis project focused on the Red Wine Quality dataset.
+
+*   [Project Overview (README)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Wine%20Quality%20Red/Read%20Me.md)
+*   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Wine%20Quality%20Red/Dataset)
+
+## Youtube Data Scraping & Analysis
+
+Projects focused on scraping data from YouTube and performing exploratory analysis.
+
+*   **Project 1: Data Exploration**
+    *   [Project Overview](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Youtube%20Data%20Exploration/Project%20Overview.md)
+    *   [YouTube Data Scraper Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Youtube%20Data%20Exploration/Youtube%20Data%20Scraper.py)
+    *   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Youtube%20Data%20Exploration/Dataset)
+*   **Project 2: Full Analysis**
+    *   [YouTube Data Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Youtube%20Data%20Scraping%20%26%20Analysis/YT-Analysis-project.ipynb)
+
+   
 ---
 
 ### Tools and Libraries
@@ -119,11 +453,3 @@ To complete these projects, you’ll need several powerful tools and libraries:
 - **Machine Learning**: Scikit-learn, TensorFlow, Keras (for predictive modeling)
 - **NLP**: NLTK, SpaCy, TextBlob (for sentiment analysis and text classification)
 - **APIs**: Tweepy (Twitter API), OpenWeatherMap (weather data), Yahoo Finance (stock data)
-
----
-
-### Conclusion
-
-This repository offers **30 detailed Python project ideas** that span a wide range of data science applications, including **web scraping**, **EDA**, and **data visualization**. By working through these projects, you’ll gain practical experience with popular Python libraries and tools, helping you sharpen your data analysis skills and prepare for real-world data science challenges.
-
-Happy coding and learning!
