@@ -61,7 +61,8 @@ A dataset containing tweets related to a banking crisis, ready for sentiment ana
 *   [Tweets Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Banking%20Crisis%20Tweets/Dataset/tweets.csv)
 
 ## Campaign Analysis
-![Uploading image.png…]()
+<img width="1085" height="750" alt="image" src="https://github.com/user-attachments/assets/72d72c8a-fa76-4f61-9b46-bf6840e66553" />
+
 
 An exploratory data analysis of a marketing campaign to measure its effectiveness.
 
@@ -79,6 +80,7 @@ A collection of quick-reference cheat sheets for Python and its core data scienc
 *   [General Python Cheat Sheet (PDF)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Cheat%20Sheet/Python%20Cheat%20Sheet.pdf)
 
 ## Classification & Clustering
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/867a3571-2b11-4a87-8599-2fe69ac14114" />
 
 A project demonstrating classification and clustering machine learning techniques.
 
@@ -86,12 +88,14 @@ A project demonstrating classification and clustering machine learning technique
 *   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Classification%20%26%20Clustering/Dataset)
 
 ## Clustered Exploratory Analysis
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/2b69dee9-68e8-4066-8bfc-63b8d104982d" />
 
 An analysis of store sales data using clustering methods.
 
 *   [Store Sales Analysis Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Clustered%20Exploratory%20Analysis/Store%20Sales%20Analysis.ipynb)
 
 ## Collapsed Project Structure
+<img width="1260" height="710" alt="image" src="https://github.com/user-attachments/assets/32c5c79e-95e4-4c90-953d-72cfe7033358" />
 
 Documentation for a project, detailing its approach and structure.
 
@@ -106,6 +110,7 @@ A dataset containing information about various companies.
 *   [Companies Information Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Companies%20Information/Dataset/Companies_Information.csv)
 
 ## Computer Stocks Analysis
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/c5d99e9a-212a-43e0-b425-294034691d3f" />
 
 An analysis project focused on computer company stocks.
 
@@ -129,6 +134,7 @@ A collection of web scraping tools, including scripts for IMDB and LinkedIn.
 *   [LinkedIn Scraper Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Data%20Scrapper/Linkedin)
 
 ## Dataset (Stock top performing 5 sectors)
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/2ad92b9e-1424-440b-af66-33a5009b97a8" />
 
 A collection of datasets for top-performing stocks across five key sectors.
 
@@ -236,6 +242,7 @@ An example of K-Means clustering applied to the Iris dataset.
 *   [K-Means on Iris Dataset Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/K%20Means%20Clustering/K%20Means%20Clustering%20in%20iris%20dataset.ipynb)
 
 ## Loan Default Prediction
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/67d4da87-ea3a-420d-b12c-cb9f099f14b8" />
 
 A machine learning project to predict loan defaults.
 
@@ -271,6 +278,7 @@ A notebook designed to identify missing state information in a dataset.
 *   [Missing State Identifier Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Missing%20State/Missing%20State%20Identifier.ipynb)
 
 ## Nifty 50 Analysis
+<img width="600" height="750" alt="image" src="https://github.com/user-attachments/assets/94bf2565-13fc-4c17-9530-08ac2863aab9" />
 
 A folder for a project analyzing India's Nifty 50 stock market index.
 
@@ -397,6 +405,7 @@ A Python script that programmatically generates stories.
 *   [Story Generator Script](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Story%20Generator/Story%20Generator.py)
 
 ## Top Mutual Funds Dataset
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/ca0821f7-b070-4e7a-8db5-1f2f74b790dd" />
 
 A comprehensive dataset of top-performing mutual funds.
 
@@ -409,6 +418,7 @@ A project to analyze and predict traffic volume based on weather conditions.
 *   [Traffic Volume vs Weather Project Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Traffic%20Volume%20%26%20Weather%20Prediction/Traffic%20Volume%20vs%20Weather%20Project.ipynb)
 
 ## UK Consumer Trends (1997-2022)
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/75d01a6c-e015-45bb-b471-b2efa15aec23" />
 
 An analysis of consumer spending trends in the UK over 25 years.
 
@@ -416,18 +426,21 @@ An analysis of consumer spending trends in the UK over 25 years.
 *   [Consumer Trends Q4 2022 Dataset (XLS)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/UK%20Consumer%20Trends%20(1997-22)/consumertrendsq42022cpnsa.xls)
 
 ## US Tornado Database (1950-2021)
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/f1b42010-7417-458d-a082-e0b287e3d815" />
 
 A historical dataset of tornado occurrences in the United States.
 
 *   [US Tornado Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/US%20Tornado%20Database/Dataset/US%20Tornado%20Dataset%20(1950-2021).csv)
 
 ## Universities Dataset
+<img width="1050" height="750" alt="image" src="https://github.com/user-attachments/assets/4880113c-ee7e-46aa-a176-e8847a8f718b" />
 
 A dataset listing top universities for Computer Science.
 
 *   [Top Unviersities for CS Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Universities/Top%20Unviersities%20for%20Computer%20Science.csv)
 
 ## Wine Quality (Red) Analysis
+<img width="1124" height="750" alt="image" src="https://github.com/user-attachments/assets/818d4e05-77fc-4e90-bc3f-ef6d6d38d141" />
 
 An analysis project focused on the Red Wine Quality dataset.
 
