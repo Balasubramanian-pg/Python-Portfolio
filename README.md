@@ -47,18 +47,21 @@ Documentation outlining a task related to handling asynchronous dependencies.
 *   [Task Overview](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Asynchronous%20Dependency/Task%20Overview.md)
 
 ## Automatic Reporting
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/92877b50-2fc7-4258-a9df-e7768add5391" />
 
 A project focused on generating automated reports from data.
 
 *   [Project 3: Automatic Reporting](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Automatic%20Reporting/Project%203.md)
 
 ## Banking Crisis Tweets Analysis
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/19608dfd-d30c-49b8-b401-8dee3a22b19c" />
 
 A dataset containing tweets related to a banking crisis, ready for sentiment analysis or topic modeling.
 
 *   [Tweets Dataset (CSV)](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Banking%20Crisis%20Tweets/Dataset/tweets.csv)
 
 ## Campaign Analysis
+![Uploading image.png…]()
 
 An exploratory data analysis of a marketing campaign to measure its effectiveness.
 
