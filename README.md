@@ -154,6 +154,7 @@ A tool for scraping email addresses, with a specific implementation for Gmail.
 *   [Project Logo](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Email%20Address%20Scraper/Email%20Address%20Scraper.svg)
 
 ## Erling Haaland Performance Analysis
+<img width="1108" height="750" alt="image" src="https://github.com/user-attachments/assets/f911578e-de34-4f8b-b114-a7cfecb42b78" />
 
 An analysis of footballer Erling Haaland's performance data.
 
