@@ -2,7 +2,6 @@
 
 Welcome to this collection of Python project ideas designed to help you build practical skills in **Exploratory Data Analysis (EDA)**, **Web Scraping**, and **Data Visualization**. This repository is packed with hands-on project ideas that will guide you through real-world data manipulation and analysis tasks. Whether you're working with **raw datasets**, **scraping data from websites**, or **building interactive visualizations**, these projects will provide valuable insights into how data can be used to uncover trends, solve problems, and inform decisions.
 
----
 
 ### Project Highlights
 
@@ -11,7 +10,6 @@ Welcome to this collection of Python project ideas designed to help you build pr
 3. **Data Visualization**: Create interactive dashboards and visualizations using **Matplotlib**, **Seaborn**, and **Plotly**. Understand how to present data insights clearly and effectively.
 4. **Data Modeling**: Explore machine learning models to predict trends and forecast future outcomes based on your data.
 
----
 
 ### Project Descriptions
 This document serves as a central directory for a diverse collection of Python projects. The portfolio spans from fundamental data analysis and visualization to machine learning, data scraping, and automation scripts.
@@ -19,12 +17,14 @@ This document serves as a central directory for a diverse collection of Python p
 ---
 
 ## Advanced EDA
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/ffdfce75-1993-4b57-8f80-3cf411fa74b3" />
 
 A project demonstrating advanced techniques in exploratory data analysis and data preprocessing.
 
 *   [Advanced Data Preprocessing Notebook](https://github.com/Balasubramanian-pg/Python-EDA-ML/blob/main/Advanced%20EDA/advance-data-preprocessing.ipynb)
 
 ## Airbnb Analysis
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/1b6dd742-7ad7-402b-bc25-79fb60bc1ee1" />
 
 An analysis of New York City Airbnb data to uncover trends and insights.
 
@@ -32,6 +32,7 @@ An analysis of New York City Airbnb data to uncover trends and insights.
 *   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Airbnb/Dataset)
 
 ## Apple Watch Data Analysis
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/b768effd-ce18-43a2-b979-fe99b1dc9d38" />
 
 Data processing and predictive modeling using health data from Apple Watch and Fitbit devices.
 
@@ -39,6 +40,7 @@ Data processing and predictive modeling using health data from Apple Watch and F
 *   [Source Dataset Folder](https://github.com/Balasubramanian-pg/Python-EDA-ML/tree/main/Apple%20Watch%20Data%20Analysis/Dataset)
 
 ## Asynchronous Dependency
+<img width="1125" height="750" alt="image" src="https://github.com/user-attachments/assets/27952aa0-3364-4728-a056-8ea67ac47fab" />
 
 Documentation outlining a task related to handling asynchronous dependencies.
 
