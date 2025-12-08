@@ -1,15 +1,11 @@
 # Business Requirements Document (BRD)
 ## YouTube Video Frame Extraction & Markdown Documentation Tool
 
----
-
 ## 1. PROJECT OVERVIEW
 
 **Objective:** Build a Python script that automatically extracts distinct frames from a YouTube video, generates contextual filenames using video transcripts, and compiles everything into a structured Markdown document.
 
 **Use Case:** Creating visual documentation, tutorials, or step-by-step guides from video content without manual screenshot capture.
-
----
 
 ## 2. FUNCTIONAL REQUIREMENTS
 
@@ -71,8 +67,6 @@
 ...
 ```
 
----
-
 ## 3. TECHNICAL REQUIREMENTS
 
 ### 3.1 Python Libraries (Recommended)
@@ -91,8 +85,6 @@
 - **Memory Management:** Process frames in batches to avoid RAM overload
 - **Parallel Processing:** Consider async operations for transcript + video processing
 - **Storage Estimate:** 1080p video ≈ 0.5-2 MB per screenshot (depends on content complexity)
-
----
 
 ## 4. USER INPUTS & CONFIGURATION
 
@@ -116,8 +108,6 @@
 }
 ```
 
----
-
 ## 5. ERROR HANDLING & EDGE CASES
 
 | Scenario | Handling Strategy |
@@ -128,8 +118,6 @@
 | **No significant frame changes** | Set minimum capture (e.g., 1 frame per minute as fallback) |
 | **Invalid output path** | Validate path, create directory if doesn't exist |
 | **YouTube API rate limiting** | Implement retry logic with exponential backoff |
-
----
 
 ## 6. OUTPUT STRUCTURE
 
@@ -142,8 +130,6 @@ output_directory/
     └── 00:03:45_explaining_key_concept.png
 ```
 
----
-
 ## 7. SUCCESS CRITERIA
 
 ✅ Script successfully downloads video and transcript  
@@ -152,8 +138,6 @@ output_directory/
 ✅ Creates well-formatted Markdown document  
 ✅ Handles errors gracefully with informative messages  
 ✅ Completes processing within reasonable time (< 5 min for 10-min video)  
-
----
 
 ## 8. OPEN QUESTIONS FOR YOU
 
@@ -166,8 +150,6 @@ Before we start coding, I need clarity on:
 5. **Video Download:** Keep downloaded video file or delete after processing?
 6. **Duplicate Handling:** If script runs twice on same video, overwrite or create new folder?
 
----
-
 ## 9. NEXT STEPS
 
 Once you confirm the above, I'll:
@@ -177,5 +159,3 @@ Once you confirm the above, I'll:
 4. Build the Markdown generator
 5. Add error handling & logging
 6. Provide usage examples and documentation
-
-**What aspects would you like to refine or confirm before we proceed?**
