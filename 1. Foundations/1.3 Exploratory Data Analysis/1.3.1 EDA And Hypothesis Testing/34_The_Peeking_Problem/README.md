@@ -1,3 +1,3 @@
-# 34_The_Peeking_Problem
+# 34 The Peeking Problem
 
-Initial version.
+Updated version.
