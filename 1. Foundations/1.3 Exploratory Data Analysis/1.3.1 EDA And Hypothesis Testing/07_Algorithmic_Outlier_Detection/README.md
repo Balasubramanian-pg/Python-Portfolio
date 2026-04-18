@@ -1,3 +1,3 @@
-# 07_Algorithmic_Outlier_Detection
+# 07 Algorithmic Outlier Detection
 
-Initial version.
+Updated version.
