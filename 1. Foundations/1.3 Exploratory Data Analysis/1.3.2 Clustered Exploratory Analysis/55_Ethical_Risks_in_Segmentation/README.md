@@ -1,3 +1,3 @@
-# 55_Ethical_Risks_in_Segmentation
+# 55 Ethical Risks in Segmentation
 
-Initial version.
+Updated version.
