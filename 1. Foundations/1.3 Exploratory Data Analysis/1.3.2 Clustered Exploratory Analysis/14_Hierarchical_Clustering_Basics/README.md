@@ -1,3 +1,3 @@
-# 14_Hierarchical_Clustering_Basics
+# 14 Hierarchical Clustering Basics
 
-Initial version.
+Updated version.
