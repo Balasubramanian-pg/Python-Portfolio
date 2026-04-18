@@ -1,3 +1,3 @@
-# 22_Gaussian_Mixture_Models_GMM
+# 22 Gaussian Mixture Models GMM
 
-Initial version.
+Updated version.
