@@ -1,3 +1,3 @@
-# 45_Graph_Based_Clustering
+# 45 Graph Based Clustering
 
-Initial version.
+Updated version.
