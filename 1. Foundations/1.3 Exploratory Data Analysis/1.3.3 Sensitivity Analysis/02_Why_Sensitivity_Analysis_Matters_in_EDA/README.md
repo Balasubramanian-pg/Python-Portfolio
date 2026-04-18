@@ -1,3 +1,3 @@
-# 02_Why_Sensitivity_Analysis_Matters_in_EDA
+# 02 Why Sensitivity Analysis Matters in EDA
 
-Initial version.
+Updated version.
