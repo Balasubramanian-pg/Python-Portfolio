@@ -1,3 +1,3 @@
-# 04_Feature_Scaling_for_Clustering
+# 04 Feature Scaling for Clustering
 
-Initial version.
+Updated version.
