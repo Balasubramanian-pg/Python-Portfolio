@@ -1,3 +1,3 @@
-# 19_P_Values_vs_Practical_Significance
+# 19 P Values vs Practical Significance
 
-Initial version.
+Updated version.
