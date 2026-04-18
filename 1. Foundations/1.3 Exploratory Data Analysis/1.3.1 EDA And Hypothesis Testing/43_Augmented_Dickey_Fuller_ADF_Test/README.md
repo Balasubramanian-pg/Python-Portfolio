@@ -1,3 +1,3 @@
-# 43_Augmented_Dickey_Fuller_ADF_Test
+# 43 Augmented Dickey Fuller ADF Test
 
-Initial version.
+Updated version.
