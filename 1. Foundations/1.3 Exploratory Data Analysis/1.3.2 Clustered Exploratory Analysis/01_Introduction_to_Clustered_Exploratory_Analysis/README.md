@@ -1,3 +1,3 @@
-# 01_Introduction_to_Clustered_Exploratory_Analysis
+# 01 Introduction to Clustered Exploratory Analysis
 
-Initial version.
+Updated version.
