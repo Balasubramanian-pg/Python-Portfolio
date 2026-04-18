@@ -1,3 +1,3 @@
-# 18_DBSCAN_Density_Based_Clustering
+# 18 DBSCAN Density Based Clustering
 
-Initial version.
+Updated version.
