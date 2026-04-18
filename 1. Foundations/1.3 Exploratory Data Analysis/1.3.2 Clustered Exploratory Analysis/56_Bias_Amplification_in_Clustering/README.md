@@ -1,3 +1,3 @@
-# 56_Bias_Amplification_in_Clustering
+# 56 Bias Amplification in Clustering
 
-Initial version.
+Updated version.
