@@ -1,3 +1,3 @@
-# 23_Sensitivity_to_Missing_Data_Imputation
+# 23 Sensitivity to Missing Data Imputation
 
-Initial version.
+Updated version.
