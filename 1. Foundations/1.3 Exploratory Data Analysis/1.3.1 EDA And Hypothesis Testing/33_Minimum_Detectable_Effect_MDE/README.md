@@ -1,3 +1,3 @@
-# 33_Minimum_Detectable_Effect_MDE
+# 33 Minimum Detectable Effect MDE
 
-Initial version.
+Updated version.
