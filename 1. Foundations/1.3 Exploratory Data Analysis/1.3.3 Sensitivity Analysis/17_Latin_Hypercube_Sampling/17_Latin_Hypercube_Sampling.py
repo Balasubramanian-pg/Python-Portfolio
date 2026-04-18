@@ -1,1 +1,1 @@
-print("Running 17_Latin_Hypercube_Sampling")
+print("Running 17 Latin Hypercube Sampling")
