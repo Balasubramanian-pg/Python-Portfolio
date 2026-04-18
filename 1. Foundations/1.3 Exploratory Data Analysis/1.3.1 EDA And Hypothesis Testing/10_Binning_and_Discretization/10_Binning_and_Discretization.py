@@ -1,1 +1,1 @@
-print("Running 10_Binning_and_Discretization")
+print("Running 10 Binning and Discretization")
