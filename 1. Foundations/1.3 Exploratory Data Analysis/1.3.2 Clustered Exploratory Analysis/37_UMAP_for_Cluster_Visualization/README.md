@@ -1,3 +1,3 @@
-# 37_UMAP_for_Cluster_Visualization
+# 37 UMAP for Cluster Visualization
 
-Initial version.
+Updated version.
