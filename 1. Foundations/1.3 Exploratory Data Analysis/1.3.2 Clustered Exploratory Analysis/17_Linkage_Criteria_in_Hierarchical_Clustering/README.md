@@ -1,3 +1,3 @@
-# 17_Linkage_Criteria_in_Hierarchical_Clustering
+# 17 Linkage Criteria in Hierarchical Clustering
 
-Initial version.
+Updated version.
