@@ -1,1 +1,1 @@
-print("Running 31_Kruskal_Wallis_Test")
+print("Running 31 Kruskal Wallis Test")
