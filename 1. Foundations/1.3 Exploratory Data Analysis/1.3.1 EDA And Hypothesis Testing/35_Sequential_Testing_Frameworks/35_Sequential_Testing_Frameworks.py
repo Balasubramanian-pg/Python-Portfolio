@@ -1,1 +1,1 @@
-print("Running 35_Sequential_Testing_Frameworks")
+print("Running 35 Sequential Testing Frameworks")
