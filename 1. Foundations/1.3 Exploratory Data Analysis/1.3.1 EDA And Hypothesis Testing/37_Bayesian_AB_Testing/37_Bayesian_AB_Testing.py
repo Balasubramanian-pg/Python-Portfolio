@@ -1,1 +1,1 @@
-print("Running 37_Bayesian_AB_Testing")
+print("Running 37 Bayesian AB Testing")
