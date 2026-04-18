@@ -1,3 +1,3 @@
-# 29_Interpreting_Cluster_Centroids
+# 29 Interpreting Cluster Centroids
 
-Initial version.
+Updated version.
