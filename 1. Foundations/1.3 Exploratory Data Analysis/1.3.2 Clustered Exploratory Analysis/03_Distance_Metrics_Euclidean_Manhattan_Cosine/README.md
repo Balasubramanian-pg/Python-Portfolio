@@ -1,3 +1,3 @@
-# 03_Distance_Metrics_Euclidean_Manhattan_Cosine
+# 03 Distance Metrics Euclidean Manhattan Cosine
 
-Initial version.
+Updated version.
