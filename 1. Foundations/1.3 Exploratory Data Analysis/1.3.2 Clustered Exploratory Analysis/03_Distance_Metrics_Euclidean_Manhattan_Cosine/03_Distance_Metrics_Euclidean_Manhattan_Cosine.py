@@ -1,1 +1,1 @@
-print("Running 03_Distance_Metrics_Euclidean_Manhattan_Cosine")
+print("Running 03 Distance Metrics Euclidean Manhattan Cosine")
