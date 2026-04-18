@@ -1,3 +1,3 @@
-# 52_Distributed_Clustering_Techniques
+# 52 Distributed Clustering Techniques
 
-Initial version.
+Updated version.
