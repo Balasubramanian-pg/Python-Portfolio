@@ -1,3 +1,3 @@
-# 23_Soft_vs_Hard_Clustering
+# 23 Soft vs Hard Clustering
 
-Initial version.
+Updated version.
