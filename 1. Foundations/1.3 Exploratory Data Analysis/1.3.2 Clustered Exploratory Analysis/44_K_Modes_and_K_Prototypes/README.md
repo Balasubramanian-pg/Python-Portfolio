@@ -1,3 +1,3 @@
-# 44_K_Modes_and_K_Prototypes
+# 44 K Modes and K Prototypes
 
-Initial version.
+Updated version.
