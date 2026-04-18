@@ -1,7 +1,5 @@
 SALib is an open-source Python library for **sensitivity analysis**. It's used in systems modeling to understand how changes to a model's inputs or external factors affect its outputs. The library provides implementations for several popular sensitivity analysis methods.
 
----
-
 ### Key Features and Methods
 
 The library includes a variety of sensitivity analysis techniques, such as:
