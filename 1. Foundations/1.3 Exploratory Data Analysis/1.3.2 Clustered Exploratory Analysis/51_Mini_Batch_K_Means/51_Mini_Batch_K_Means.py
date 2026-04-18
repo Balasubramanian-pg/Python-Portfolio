@@ -1,1 +1,1 @@
-print("Running 51_Mini_Batch_K_Means")
+print("Running 51 Mini Batch K Means")
