@@ -1,3 +1,3 @@
-# 08_Handling_Highly_Skewed_Data
+# 08 Handling Highly Skewed Data
 
-Initial version.
+Updated version.
