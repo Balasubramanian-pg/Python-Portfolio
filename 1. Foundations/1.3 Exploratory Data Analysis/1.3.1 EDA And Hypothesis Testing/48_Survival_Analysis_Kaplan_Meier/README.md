@@ -1,3 +1,3 @@
-# 48_Survival_Analysis_Kaplan_Meier
+# 48 Survival Analysis Kaplan Meier
 
-Initial version.
+Updated version.
