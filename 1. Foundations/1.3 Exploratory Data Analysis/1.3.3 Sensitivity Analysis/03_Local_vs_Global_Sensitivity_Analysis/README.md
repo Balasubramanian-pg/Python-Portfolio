@@ -1,3 +1,3 @@
-# 03_Local_vs_Global_Sensitivity_Analysis
+# 03 Local vs Global Sensitivity Analysis
 
-Initial version.
+Updated version.
