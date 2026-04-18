@@ -1,3 +1,3 @@
-# 02_Missing_Data_Mechanisms
+# 02 Missing Data Mechanisms
 
-Initial version.
+Updated version.
