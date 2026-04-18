@@ -1,3 +1,3 @@
-# 52_LLM_Assisted_Hypothesis_Generation
+# 52 LLM Assisted Hypothesis Generation
 
-Initial version.
+Updated version.
