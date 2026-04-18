@@ -1,3 +1,3 @@
-# 07_Choosing_the_Right_Clustering_Algorithm
+# 07 Choosing the Right Clustering Algorithm
 
-Initial version.
+Updated version.
