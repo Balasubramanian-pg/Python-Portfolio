@@ -1,1 +1,1 @@
-print("Running 44_Event_Study_Methodology")
+print("Running 44 Event Study Methodology")
