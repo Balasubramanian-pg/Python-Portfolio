@@ -1,1 +1,1 @@
-print("Running 28_Chi_Square_Test_of_Independence")
+print("Running 28 Chi Square Test of Independence")
