@@ -1,3 +1,3 @@
-# 15_Agglomerative_vs_Divisive_Clustering
+# 15 Agglomerative vs Divisive Clustering
 
-Initial version.
+Updated version.
