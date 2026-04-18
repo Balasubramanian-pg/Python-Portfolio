@@ -1,1 +1,1 @@
-print("Running 20_Handling_Noise_and_Outliers_in_DBSCAN")
+print("Running 20 Handling Noise and Outliers in DBSCAN")
