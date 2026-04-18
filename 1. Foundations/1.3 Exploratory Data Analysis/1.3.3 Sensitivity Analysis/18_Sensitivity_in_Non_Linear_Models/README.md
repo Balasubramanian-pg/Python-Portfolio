@@ -1,3 +1,3 @@
-# 18_Sensitivity_in_Non_Linear_Models
+# 18 Sensitivity in Non Linear Models
 
-Initial version.
+Updated version.
