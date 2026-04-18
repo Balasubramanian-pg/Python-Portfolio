@@ -1,1 +1,1 @@
-print("Running 33_Minimum_Detectable_Effect_MDE")
+print("Running 33 Minimum Detectable Effect MDE")
