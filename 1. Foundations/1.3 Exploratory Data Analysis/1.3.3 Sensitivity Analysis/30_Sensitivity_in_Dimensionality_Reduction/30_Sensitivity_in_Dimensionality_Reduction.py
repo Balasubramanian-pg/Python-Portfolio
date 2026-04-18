@@ -1,1 +1,1 @@
-print("Running 30_Sensitivity_in_Dimensionality_Reduction")
+print("Running 30 Sensitivity in Dimensionality Reduction")
