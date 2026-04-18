@@ -1,1 +1,1 @@
-print("Running 06_Deterministic_vs_Probabilistic_Sensitivity")
+print("Running 06 Deterministic vs Probabilistic Sensitivity")
