@@ -1,3 +1,3 @@
-# 40_Monitoring_Cluster_Changes
+# 40 Monitoring Cluster Changes
 
-Initial version.
+Updated version.
