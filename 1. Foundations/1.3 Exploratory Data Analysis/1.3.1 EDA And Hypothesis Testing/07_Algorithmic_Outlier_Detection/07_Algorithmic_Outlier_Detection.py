@@ -1,1 +1,1 @@
-print("Running 07_Algorithmic_Outlier_Detection")
+print("Running 07 Algorithmic Outlier Detection")
