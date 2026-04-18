@@ -1,3 +1,3 @@
-# 13_PCA_for_EDA
+# 13 PCA for EDA
 
-Initial version.
+Updated version.
