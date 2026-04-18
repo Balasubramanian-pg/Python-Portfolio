@@ -1,0 +1,3 @@
+# 06_Curse_of_Dimensionality_in_Clustering
+
+Initial version.
