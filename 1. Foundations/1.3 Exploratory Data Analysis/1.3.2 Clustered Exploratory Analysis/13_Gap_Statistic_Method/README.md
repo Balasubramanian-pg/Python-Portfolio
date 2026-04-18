@@ -1,3 +1,3 @@
-# 13_Gap_Statistic_Method
+# 13 Gap Statistic Method
 
-Initial version.
+Updated version.
