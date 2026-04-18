@@ -1,3 +1,3 @@
-# 08_Input_Variable_Importance_Ranking
+# 08 Input Variable Importance Ranking
 
-Initial version.
+Updated version.
