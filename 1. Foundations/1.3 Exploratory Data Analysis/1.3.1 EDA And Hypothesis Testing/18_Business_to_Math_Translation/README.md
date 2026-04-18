@@ -1,3 +1,3 @@
-# 18_Business_to_Math_Translation
+# 18 Business to Math Translation
 
-Initial version.
+Updated version.
