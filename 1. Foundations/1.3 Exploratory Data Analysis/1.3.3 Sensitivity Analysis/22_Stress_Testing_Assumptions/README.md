@@ -1,3 +1,3 @@
-# 22_Stress_Testing_Assumptions
+# 22 Stress Testing Assumptions
 
-Initial version.
+Updated version.
