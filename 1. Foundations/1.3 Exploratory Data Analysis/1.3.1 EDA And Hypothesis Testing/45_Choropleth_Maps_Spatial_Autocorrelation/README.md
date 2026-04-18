@@ -1,3 +1,3 @@
-# 45_Choropleth_Maps_Spatial_Autocorrelation
+# 45 Choropleth Maps Spatial Autocorrelation
 
-Initial version.
+Updated version.
