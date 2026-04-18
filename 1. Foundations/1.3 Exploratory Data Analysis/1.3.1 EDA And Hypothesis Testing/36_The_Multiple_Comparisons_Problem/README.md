@@ -1,3 +1,3 @@
-# 36_The_Multiple_Comparisons_Problem
+# 36 The Multiple Comparisons Problem
 
-Initial version.
+Updated version.
