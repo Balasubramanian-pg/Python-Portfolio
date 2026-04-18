@@ -1,3 +1,3 @@
-# 15_Morris_Method_for_Screening
+# 15 Morris Method for Screening
 
-Initial version.
+Updated version.
