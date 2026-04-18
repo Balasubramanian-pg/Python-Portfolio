@@ -1,1 +1,1 @@
-print("Running 03_Memory_Optimization_via_Data_Types")
+print("Running 03 Memory Optimization via Data Types")
