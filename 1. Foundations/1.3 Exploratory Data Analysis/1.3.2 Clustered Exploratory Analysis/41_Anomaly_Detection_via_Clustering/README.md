@@ -1,3 +1,3 @@
-# 41_Anomaly_Detection_via_Clustering
+# 41 Anomaly Detection via Clustering
 
-Initial version.
+Updated version.
