@@ -1,1 +1,1 @@
-print("Running 41_Seasonality_and_Trend_Decomposition_STL")
+print("Running 41 Seasonality and Trend Decomposition STL")
