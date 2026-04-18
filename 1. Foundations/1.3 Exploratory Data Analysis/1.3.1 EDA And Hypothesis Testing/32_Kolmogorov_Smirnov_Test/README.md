@@ -1,3 +1,3 @@
-# 32_Kolmogorov_Smirnov_Test
+# 32 Kolmogorov Smirnov Test
 
-Initial version.
+Updated version.
