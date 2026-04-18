@@ -1,3 +1,3 @@
-# 23_Independent_Two_Sample_T_test
+# 23 Independent Two Sample T test
 
-Initial version.
+Updated version.
