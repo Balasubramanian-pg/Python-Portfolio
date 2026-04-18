@@ -1,1 +1,1 @@
-print("Running 23_Independent_Two_Sample_T_test")
+print("Running 23 Independent Two Sample T test")
