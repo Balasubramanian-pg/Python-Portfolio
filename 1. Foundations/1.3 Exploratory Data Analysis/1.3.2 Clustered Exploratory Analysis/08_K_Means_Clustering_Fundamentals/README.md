@@ -1,3 +1,3 @@
-# 08_K_Means_Clustering_Fundamentals
+# 08 K Means Clustering Fundamentals
 
-Initial version.
+Updated version.
