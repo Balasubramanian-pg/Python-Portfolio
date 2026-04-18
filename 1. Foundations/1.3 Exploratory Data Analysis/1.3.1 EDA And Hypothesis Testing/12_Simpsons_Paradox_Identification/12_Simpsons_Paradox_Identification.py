@@ -1,1 +1,1 @@
-print("Running 12_Simpsons_Paradox_Identification")
+print("Running 12 Simpsons Paradox Identification")
