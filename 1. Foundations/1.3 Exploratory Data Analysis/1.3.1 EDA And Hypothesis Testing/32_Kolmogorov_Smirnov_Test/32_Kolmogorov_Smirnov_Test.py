@@ -1,1 +1,1 @@
-print("Running 32_Kolmogorov_Smirnov_Test")
+print("Running 32 Kolmogorov Smirnov Test")
