@@ -1,1 +1,1 @@
-print("Running 22_Confidence_Intervals_for_Decision_Making")
+print("Running 22 Confidence Intervals for Decision Making")
