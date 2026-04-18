@@ -1,1 +1,1 @@
-print("Running 30_Mann_Whitney_U_Test")
+print("Running 30 Mann Whitney U Test")
