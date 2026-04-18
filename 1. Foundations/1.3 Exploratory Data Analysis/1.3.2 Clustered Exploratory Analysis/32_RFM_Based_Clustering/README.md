@@ -1,3 +1,3 @@
-# 32_RFM_Based_Clustering
+# 32 RFM Based Clustering
 
-Initial version.
+Updated version.
