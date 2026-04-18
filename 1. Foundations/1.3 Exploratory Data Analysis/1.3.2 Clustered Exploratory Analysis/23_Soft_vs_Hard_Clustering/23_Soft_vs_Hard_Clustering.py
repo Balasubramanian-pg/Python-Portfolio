@@ -1,1 +1,1 @@
-print("Running 23_Soft_vs_Hard_Clustering")
+print("Running 23 Soft vs Hard Clustering")
