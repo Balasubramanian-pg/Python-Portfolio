@@ -1,1 +1,1 @@
-print("Running 52_Distributed_Clustering_Techniques")
+print("Running 52 Distributed Clustering Techniques")
