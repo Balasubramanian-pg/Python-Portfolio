@@ -1,3 +1,3 @@
-# 50_Scaling_Clustering_for_Big_Data
+# 50 Scaling Clustering for Big Data
 
-Initial version.
+Updated version.
