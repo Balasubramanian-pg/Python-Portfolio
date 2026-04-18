@@ -1,3 +1,3 @@
-# 25_Welchs_T_test
+# 25 Welchs T test
 
-Initial version.
+Updated version.
