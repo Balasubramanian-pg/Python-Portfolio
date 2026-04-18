@@ -1,3 +1,3 @@
-# 30_Sensitivity_in_Dimensionality_Reduction
+# 30 Sensitivity in Dimensionality Reduction
 
-Initial version.
+Updated version.
