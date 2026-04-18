@@ -1,3 +1,3 @@
-# 24_Sensitivity_to_Outlier_Treatment
+# 24 Sensitivity to Outlier Treatment
 
-Initial version.
+Updated version.
