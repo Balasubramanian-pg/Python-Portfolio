@@ -1,1 +1,1 @@
-print("Running 25_Welchs_T_test")
+print("Running 25 Welchs T test")
