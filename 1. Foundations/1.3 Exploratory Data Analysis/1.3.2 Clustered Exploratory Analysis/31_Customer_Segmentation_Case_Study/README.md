@@ -1,3 +1,3 @@
-# 31_Customer_Segmentation_Case_Study
+# 31 Customer Segmentation Case Study
 
-Initial version.
+Updated version.
