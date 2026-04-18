@@ -1,1 +1,1 @@
-print("Running 24_Expectation_Maximization_Algorithm")
+print("Running 24 Expectation Maximization Algorithm")
