@@ -1,3 +1,3 @@
-# 44_Event_Study_Methodology
+# 44 Event Study Methodology
 
-Initial version.
+Updated version.
