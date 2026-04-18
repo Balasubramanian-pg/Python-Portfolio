@@ -1,3 +1,3 @@
-# 46_Bootstrapping_Resampling
+# 46 Bootstrapping Resampling
 
-Initial version.
+Updated version.
