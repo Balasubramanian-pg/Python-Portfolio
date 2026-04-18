@@ -1,1 +1,1 @@
-print("Running 46_Spectral_Clustering")
+print("Running 46 Spectral Clustering")
