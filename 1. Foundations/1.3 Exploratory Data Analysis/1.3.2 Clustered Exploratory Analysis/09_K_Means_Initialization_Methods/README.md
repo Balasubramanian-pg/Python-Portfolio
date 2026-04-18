@@ -1,3 +1,3 @@
-# 09_K_Means_Initialization_Methods
+# 09 K Means Initialization Methods
 
-Initial version.
+Updated version.
