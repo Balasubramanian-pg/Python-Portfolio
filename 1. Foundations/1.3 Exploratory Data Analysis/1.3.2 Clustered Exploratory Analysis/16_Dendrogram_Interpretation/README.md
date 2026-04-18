@@ -1,3 +1,3 @@
-# 16_Dendrogram_Interpretation
+# 16 Dendrogram Interpretation
 
-Initial version.
+Updated version.
