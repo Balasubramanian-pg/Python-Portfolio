@@ -1,3 +1,3 @@
-# 24_Paired_T_test
+# 24 Paired T test
 
-Initial version.
+Updated version.
