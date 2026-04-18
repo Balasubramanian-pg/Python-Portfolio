@@ -1,1 +1,1 @@
-print("Running 38_Multi_Armed_Bandits_MAB")
+print("Running 38 Multi Armed Bandits MAB")
