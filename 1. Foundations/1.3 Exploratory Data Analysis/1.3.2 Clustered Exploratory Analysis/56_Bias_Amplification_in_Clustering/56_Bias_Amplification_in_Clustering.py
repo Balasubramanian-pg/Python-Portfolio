@@ -1,1 +1,1 @@
-print("Running 56_Bias_Amplification_in_Clustering")
+print("Running 56 Bias Amplification in Clustering")
