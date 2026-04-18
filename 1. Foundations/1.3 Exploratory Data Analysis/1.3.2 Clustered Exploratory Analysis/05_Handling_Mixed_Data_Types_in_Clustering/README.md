@@ -1,3 +1,3 @@
-# 05_Handling_Mixed_Data_Types_in_Clustering
+# 05 Handling Mixed Data Types in Clustering
 
-Initial version.
+Updated version.
