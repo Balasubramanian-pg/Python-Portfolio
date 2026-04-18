@@ -1,3 +1,3 @@
-# 20_Handling_Noise_and_Outliers_in_DBSCAN
+# 20 Handling Noise and Outliers in DBSCAN
 
-Initial version.
+Updated version.
