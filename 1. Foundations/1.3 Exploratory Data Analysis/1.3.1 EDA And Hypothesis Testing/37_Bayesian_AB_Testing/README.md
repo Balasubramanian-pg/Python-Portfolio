@@ -1,3 +1,3 @@
-# 37_Bayesian_AB_Testing
+# 37 Bayesian AB Testing
 
-Initial version.
+Updated version.
