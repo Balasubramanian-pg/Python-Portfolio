@@ -1,1 +1,1 @@
-print("Running 31_Customer_Segmentation_Case_Study")
+print("Running 31 Customer Segmentation Case Study")
