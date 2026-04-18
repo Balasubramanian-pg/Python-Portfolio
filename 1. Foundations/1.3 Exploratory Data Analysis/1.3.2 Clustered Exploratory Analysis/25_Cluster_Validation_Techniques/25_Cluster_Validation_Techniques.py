@@ -1,1 +1,1 @@
-print("Running 25_Cluster_Validation_Techniques")
+print("Running 25 Cluster Validation Techniques")
