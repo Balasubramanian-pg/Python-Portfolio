@@ -1,3 +1,3 @@
-# 11_Silhouette_Score_Interpretation
+# 11 Silhouette Score Interpretation
 
-Initial version.
+Updated version.
