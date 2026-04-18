@@ -1,1 +1,1 @@
-print("Running 25_Sensitivity_to_Feature_Scaling_Choices")
+print("Running 25 Sensitivity to Feature Scaling Choices")
