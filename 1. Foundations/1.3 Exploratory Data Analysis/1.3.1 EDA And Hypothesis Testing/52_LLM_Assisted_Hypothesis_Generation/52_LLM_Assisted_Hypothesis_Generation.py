@@ -1,1 +1,1 @@
-print("Running 52_LLM_Assisted_Hypothesis_Generation")
+print("Running 52 LLM Assisted Hypothesis Generation")
