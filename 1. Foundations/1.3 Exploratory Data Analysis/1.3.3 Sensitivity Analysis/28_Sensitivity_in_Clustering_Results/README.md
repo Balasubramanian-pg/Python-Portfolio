@@ -1,3 +1,3 @@
-# 28_Sensitivity_in_Clustering_Results
+# 28 Sensitivity in Clustering Results
 
-Initial version.
+Updated version.
