@@ -1,1 +1,1 @@
-print("Running 05_Handling_Mixed_Data_Types_in_Clustering")
+print("Running 05 Handling Mixed Data Types in Clustering")
