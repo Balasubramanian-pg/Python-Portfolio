@@ -1,1 +1,1 @@
-print("Running 19_P_Values_vs_Practical_Significance")
+print("Running 19 P Values vs Practical Significance")
