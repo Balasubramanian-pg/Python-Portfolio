@@ -1,3 +1,3 @@
-# 20_Sensitivity_under_Multicollinearity
+# 20 Sensitivity under Multicollinearity
 
-Initial version.
+Updated version.
