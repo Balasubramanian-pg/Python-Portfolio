@@ -1,3 +1,3 @@
-# 33_Time_Series_Clustering_Basics
+# 33 Time Series Clustering Basics
 
-Initial version.
+Updated version.
