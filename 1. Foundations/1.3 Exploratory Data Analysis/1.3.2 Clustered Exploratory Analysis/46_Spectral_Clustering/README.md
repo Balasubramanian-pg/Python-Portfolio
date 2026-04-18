@@ -1,3 +1,3 @@
-# 46_Spectral_Clustering
+# 46 Spectral Clustering
 
-Initial version.
+Updated version.
