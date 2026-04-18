@@ -1,3 +1,3 @@
-# 14_Variance_Based_Sensitivity_Analysis_Sobol
+# 14 Variance Based Sensitivity Analysis Sobol
 
-Initial version.
+Updated version.
