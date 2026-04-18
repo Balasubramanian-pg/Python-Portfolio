@@ -1,3 +1,3 @@
-# 06_Distribution_Analysis_KDE_ECDF
+# 06 Distribution Analysis KDE ECDF
 
-Initial version.
+Updated version.
