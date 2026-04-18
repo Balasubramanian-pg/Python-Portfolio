@@ -1,3 +1,3 @@
-# 35_Clustering_High_Dimensional_Data
+# 35 Clustering High Dimensional Data
 
-Initial version.
+Updated version.
