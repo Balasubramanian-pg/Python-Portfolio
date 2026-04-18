@@ -1,3 +1,3 @@
-# 24_Expectation_Maximization_Algorithm
+# 24 Expectation Maximization Algorithm
 
-Initial version.
+Updated version.
