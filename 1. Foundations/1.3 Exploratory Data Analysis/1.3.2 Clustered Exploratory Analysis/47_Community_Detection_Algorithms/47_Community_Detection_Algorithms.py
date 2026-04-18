@@ -1,1 +1,1 @@
-print("Running 47_Community_Detection_Algorithms")
+print("Running 47 Community Detection Algorithms")
