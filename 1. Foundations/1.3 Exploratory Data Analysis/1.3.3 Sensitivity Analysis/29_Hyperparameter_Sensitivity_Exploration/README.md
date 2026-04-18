@@ -1,3 +1,3 @@
-# 29_Hyperparameter_Sensitivity_Exploration
+# 29 Hyperparameter Sensitivity Exploration
 
-Initial version.
+Updated version.
