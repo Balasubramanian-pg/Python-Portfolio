@@ -1,1 +1,1 @@
-print("Running 06_Curse_of_Dimensionality_in_Clustering")
+print("Running 06 Curse of Dimensionality in Clustering")
