@@ -1,3 +1,3 @@
-# 12_Individual_Conditional_Expectation_ICE_Plots
+# 12 Individual Conditional Expectation ICE Plots
 
-Initial version.
+Updated version.
