@@ -1,3 +1,3 @@
-# 35_Sequential_Testing_Frameworks
+# 35 Sequential Testing Frameworks
 
-Initial version.
+Updated version.
