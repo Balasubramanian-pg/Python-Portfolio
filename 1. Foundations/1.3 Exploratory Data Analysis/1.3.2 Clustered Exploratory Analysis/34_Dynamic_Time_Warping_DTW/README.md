@@ -1,3 +1,3 @@
-# 34_Dynamic_Time_Warping_DTW
+# 34 Dynamic Time Warping DTW
 
-Initial version.
+Updated version.
