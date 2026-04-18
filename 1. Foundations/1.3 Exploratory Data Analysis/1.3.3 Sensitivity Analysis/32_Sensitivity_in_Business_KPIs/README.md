@@ -1,3 +1,3 @@
-# 32_Sensitivity_in_Business_KPIs
+# 32 Sensitivity in Business KPIs
 
-Initial version.
+Updated version.
