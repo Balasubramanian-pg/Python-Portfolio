@@ -1,1 +1,1 @@
-print("Running 24_Sensitivity_to_Outlier_Treatment")
+print("Running 24 Sensitivity to Outlier Treatment")
