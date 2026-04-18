@@ -1,3 +1,3 @@
-# 01_Automated_EDA_Libraries
+# 01 Automated EDA Libraries
 
-Initial version.
+Updated version.
