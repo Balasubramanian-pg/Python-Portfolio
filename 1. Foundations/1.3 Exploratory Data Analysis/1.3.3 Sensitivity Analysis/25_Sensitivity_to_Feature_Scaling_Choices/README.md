@@ -1,3 +1,3 @@
-# 25_Sensitivity_to_Feature_Scaling_Choices
+# 25 Sensitivity to Feature Scaling Choices
 
-Initial version.
+Updated version.
