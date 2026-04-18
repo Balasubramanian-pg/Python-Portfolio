@@ -1,3 +1,3 @@
-# 11_QQ_Plots_for_Normality
+# 11 QQ Plots for Normality
 
-Initial version.
+Updated version.
