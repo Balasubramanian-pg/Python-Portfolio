@@ -1,3 +1,3 @@
-# 26_Cluster_Stability_Analysis
+# 26 Cluster Stability Analysis
 
-Initial version.
+Updated version.
