@@ -1,3 +1,3 @@
-# 51_Mini_Batch_K_Means
+# 51 Mini Batch K Means
 
-Initial version.
+Updated version.
