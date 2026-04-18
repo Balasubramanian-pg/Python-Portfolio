@@ -1,3 +1,3 @@
-# 41_Seasonality_and_Trend_Decomposition_STL
+# 41 Seasonality and Trend Decomposition STL
 
-Initial version.
+Updated version.
