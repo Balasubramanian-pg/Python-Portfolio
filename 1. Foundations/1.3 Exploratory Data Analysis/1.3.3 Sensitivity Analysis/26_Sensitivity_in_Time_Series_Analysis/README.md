@@ -1,3 +1,3 @@
-# 26_Sensitivity_in_Time_Series_Analysis
+# 26 Sensitivity in Time Series Analysis
 
-Initial version.
+Updated version.
