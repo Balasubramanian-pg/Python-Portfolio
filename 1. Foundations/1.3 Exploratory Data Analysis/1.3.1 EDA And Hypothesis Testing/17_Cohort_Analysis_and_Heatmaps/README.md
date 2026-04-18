@@ -1,3 +1,3 @@
-# 17_Cohort_Analysis_and_Heatmaps
+# 17 Cohort Analysis and Heatmaps
 
-Initial version.
+Updated version.
