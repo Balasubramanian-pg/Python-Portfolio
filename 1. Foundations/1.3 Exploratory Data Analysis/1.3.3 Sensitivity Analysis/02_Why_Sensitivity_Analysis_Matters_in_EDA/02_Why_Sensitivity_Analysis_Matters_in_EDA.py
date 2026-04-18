@@ -1,1 +1,1 @@
-print("Running 02_Why_Sensitivity_Analysis_Matters_in_EDA")
+print("Running 02 Why Sensitivity Analysis Matters in EDA")
