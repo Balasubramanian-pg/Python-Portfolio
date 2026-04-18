@@ -1,3 +1,3 @@
-# 26_One_Way_ANOVA
+# 26 One Way ANOVA
 
-Initial version.
+Updated version.
