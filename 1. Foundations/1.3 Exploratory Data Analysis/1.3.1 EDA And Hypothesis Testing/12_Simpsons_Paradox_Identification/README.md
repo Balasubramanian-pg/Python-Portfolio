@@ -1,3 +1,3 @@
-# 12_Simpsons_Paradox_Identification
+# 12 Simpsons Paradox Identification
 
-Initial version.
+Updated version.
