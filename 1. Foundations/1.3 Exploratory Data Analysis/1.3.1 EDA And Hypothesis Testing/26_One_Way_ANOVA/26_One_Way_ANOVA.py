@@ -1,1 +1,1 @@
-print("Running 26_One_Way_ANOVA")
+print("Running 26 One Way ANOVA")
