@@ -1,3 +1,3 @@
-# 30_Business_Segmentation_using_Clusters
+# 30 Business Segmentation using Clusters
 
-Initial version.
+Updated version.
