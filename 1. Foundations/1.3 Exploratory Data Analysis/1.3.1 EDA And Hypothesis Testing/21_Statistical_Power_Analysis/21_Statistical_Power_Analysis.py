@@ -1,1 +1,1 @@
-print("Running 21_Statistical_Power_Analysis")
+print("Running 21 Statistical Power Analysis")
