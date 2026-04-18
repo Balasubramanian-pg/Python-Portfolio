@@ -1,3 +1,3 @@
-# 54_Clustering_for_Recommendation_Systems
+# 54 Clustering for Recommendation Systems
 
-Initial version.
+Updated version.
