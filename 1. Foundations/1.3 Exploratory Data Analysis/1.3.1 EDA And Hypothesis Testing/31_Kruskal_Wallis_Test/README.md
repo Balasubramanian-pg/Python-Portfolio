@@ -1,3 +1,3 @@
-# 31_Kruskal_Wallis_Test
+# 31 Kruskal Wallis Test
 
-Initial version.
+Updated version.
