@@ -1,3 +1,3 @@
-# 14_t_SNE_and_UMAP_Visualization
+# 14 t SNE and UMAP Visualization
 
-Initial version.
+Updated version.
