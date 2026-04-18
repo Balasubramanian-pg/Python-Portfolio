@@ -1,3 +1,3 @@
-# 36_PCA_Before_Clustering
+# 36 PCA Before Clustering
 
-Initial version.
+Updated version.
