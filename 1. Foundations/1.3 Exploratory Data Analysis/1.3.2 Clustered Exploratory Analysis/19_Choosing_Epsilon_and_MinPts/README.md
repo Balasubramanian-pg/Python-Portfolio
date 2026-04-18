@@ -1,3 +1,3 @@
-# 19_Choosing_Epsilon_and_MinPts
+# 19 Choosing Epsilon and MinPts
 
-Initial version.
+Updated version.
