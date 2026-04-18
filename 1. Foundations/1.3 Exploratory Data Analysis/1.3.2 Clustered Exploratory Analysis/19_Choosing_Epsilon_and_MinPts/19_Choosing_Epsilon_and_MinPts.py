@@ -1,1 +1,1 @@
-print("Running 19_Choosing_Epsilon_and_MinPts")
+print("Running 19 Choosing Epsilon and MinPts")
