@@ -1,3 +1,3 @@
-# 06_Deterministic_vs_Probabilistic_Sensitivity
+# 06 Deterministic vs Probabilistic Sensitivity
 
-Initial version.
+Updated version.
