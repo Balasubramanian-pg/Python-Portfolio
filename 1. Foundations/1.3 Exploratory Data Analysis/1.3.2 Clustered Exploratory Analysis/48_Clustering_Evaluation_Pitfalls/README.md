@@ -1,3 +1,3 @@
-# 48_Clustering_Evaluation_Pitfalls
+# 48 Clustering Evaluation Pitfalls
 
-Initial version.
+Updated version.
