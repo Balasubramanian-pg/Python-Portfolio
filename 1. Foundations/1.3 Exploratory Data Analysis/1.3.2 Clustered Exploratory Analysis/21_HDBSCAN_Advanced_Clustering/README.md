@@ -1,3 +1,3 @@
-# 21_HDBSCAN_Advanced_Clustering
+# 21 HDBSCAN Advanced Clustering
 
-Initial version.
+Updated version.
