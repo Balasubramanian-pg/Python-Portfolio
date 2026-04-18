@@ -1,1 +1,1 @@
-print("Running 06_Distribution_Analysis_KDE_ECDF")
+print("Running 06 Distribution Analysis KDE ECDF")
