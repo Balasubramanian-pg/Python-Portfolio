@@ -1,1 +1,1 @@
-print("Running 55_Ethical_Risks_in_Segmentation")
+print("Running 55 Ethical Risks in Segmentation")
