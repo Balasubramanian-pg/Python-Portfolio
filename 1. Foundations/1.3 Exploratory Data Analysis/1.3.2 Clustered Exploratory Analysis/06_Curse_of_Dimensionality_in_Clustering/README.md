@@ -1,3 +1,3 @@
-# 06_Curse_of_Dimensionality_in_Clustering
+# 06 Curse of Dimensionality in Clustering
 
-Initial version.
+Updated version.
