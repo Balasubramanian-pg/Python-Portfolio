@@ -1,3 +1,3 @@
-# 03_Memory_Optimization_via_Data_Types
+# 03 Memory Optimization via Data Types
 
-Initial version.
+Updated version.
