@@ -1,1 +1,1 @@
-print("Running 15_Morris_Method_for_Screening")
+print("Running 15 Morris Method for Screening")
