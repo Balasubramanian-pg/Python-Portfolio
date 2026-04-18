@@ -1,3 +1,3 @@
-# 39_Network_Effects_Switchback_Testing
+# 39 Network Effects Switchback Testing
 
-Initial version.
+Updated version.
