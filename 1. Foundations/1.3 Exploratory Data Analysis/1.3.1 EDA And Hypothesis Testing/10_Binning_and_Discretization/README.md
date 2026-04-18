@@ -1,3 +1,3 @@
-# 10_Binning_and_Discretization
+# 10 Binning and Discretization
 
-Initial version.
+Updated version.
