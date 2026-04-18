@@ -1,3 +1,3 @@
-# 27_Tukeys_HSD_Post_Hoc_Test
+# 27 Tukeys HSD Post Hoc Test
 
-Initial version.
+Updated version.
