@@ -1,1 +1,1 @@
-print("Running 22_Gaussian_Mixture_Models_GMM")
+print("Running 22 Gaussian Mixture Models GMM")
