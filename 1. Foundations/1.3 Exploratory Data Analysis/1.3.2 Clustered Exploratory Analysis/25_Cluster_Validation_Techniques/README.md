@@ -1,3 +1,3 @@
-# 25_Cluster_Validation_Techniques
+# 25 Cluster Validation Techniques
 
-Initial version.
+Updated version.
