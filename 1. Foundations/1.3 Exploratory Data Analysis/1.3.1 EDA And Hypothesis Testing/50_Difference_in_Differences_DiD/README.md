@@ -1,3 +1,3 @@
-# 50_Difference_in_Differences_DiD
+# 50 Difference in Differences DiD
 
-Initial version.
+Updated version.
