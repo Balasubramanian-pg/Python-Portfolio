@@ -1,3 +1,3 @@
-# 12_Davies_Bouldin_Index
+# 12 Davies Bouldin Index
 
-Initial version.
+Updated version.
