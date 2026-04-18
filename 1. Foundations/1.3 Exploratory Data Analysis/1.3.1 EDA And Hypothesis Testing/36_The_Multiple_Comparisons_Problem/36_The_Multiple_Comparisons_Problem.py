@@ -1,1 +1,1 @@
-print("Running 36_The_Multiple_Comparisons_Problem")
+print("Running 36 The Multiple Comparisons Problem")
