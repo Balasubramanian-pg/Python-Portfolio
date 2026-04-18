@@ -1,3 +1,3 @@
-# 47_Community_Detection_Algorithms
+# 47 Community Detection Algorithms
 
-Initial version.
+Updated version.
