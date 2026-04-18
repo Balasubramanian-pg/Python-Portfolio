@@ -1,3 +1,3 @@
-# 21_Statistical_Power_Analysis
+# 21 Statistical Power Analysis
 
-Initial version.
+Updated version.
