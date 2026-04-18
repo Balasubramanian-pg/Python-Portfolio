@@ -1,1 +1,1 @@
-print("Running 47_Permutation_Tests")
+print("Running 47 Permutation Tests")
