@@ -1,1 +1,1 @@
-print("Running 41_Anomaly_Detection_via_Clustering")
+print("Running 41 Anomaly Detection via Clustering")
