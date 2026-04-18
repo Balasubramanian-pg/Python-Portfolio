@@ -1,3 +1,3 @@
-# 38_Multi_Armed_Bandits_MAB
+# 38 Multi Armed Bandits MAB
 
-Initial version.
+Updated version.
