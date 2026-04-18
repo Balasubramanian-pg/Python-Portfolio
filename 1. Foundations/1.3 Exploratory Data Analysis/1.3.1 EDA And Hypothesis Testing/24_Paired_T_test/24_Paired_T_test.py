@@ -1,1 +1,1 @@
-print("Running 24_Paired_T_test")
+print("Running 24 Paired T test")
