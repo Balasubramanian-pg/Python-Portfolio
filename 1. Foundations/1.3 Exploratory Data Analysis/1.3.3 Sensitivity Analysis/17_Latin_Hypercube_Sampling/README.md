@@ -1,3 +1,3 @@
-# 17_Latin_Hypercube_Sampling
+# 17 Latin Hypercube Sampling
 
-Initial version.
+Updated version.
