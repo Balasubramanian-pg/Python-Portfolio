@@ -1,3 +1,3 @@
-# 10_Spider_Plots_for_Multi_Variable_Sensitivity
+# 10 Spider Plots for Multi Variable Sensitivity
 
-Initial version.
+Updated version.
