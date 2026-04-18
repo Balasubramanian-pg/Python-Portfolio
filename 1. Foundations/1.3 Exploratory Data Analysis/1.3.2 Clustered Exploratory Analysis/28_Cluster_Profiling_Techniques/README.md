@@ -1,3 +1,3 @@
-# 28_Cluster_Profiling_Techniques
+# 28 Cluster Profiling Techniques
 
-Initial version.
+Updated version.
