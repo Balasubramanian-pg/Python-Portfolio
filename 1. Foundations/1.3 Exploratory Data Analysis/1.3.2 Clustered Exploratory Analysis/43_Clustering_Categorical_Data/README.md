@@ -1,3 +1,3 @@
-# 43_Clustering_Categorical_Data
+# 43 Clustering Categorical Data
 
-Initial version.
+Updated version.
