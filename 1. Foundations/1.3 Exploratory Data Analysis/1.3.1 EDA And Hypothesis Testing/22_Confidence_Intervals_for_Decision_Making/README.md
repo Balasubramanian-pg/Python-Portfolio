@@ -1,3 +1,3 @@
-# 22_Confidence_Intervals_for_Decision_Making
+# 22 Confidence Intervals for Decision Making
 
-Initial version.
+Updated version.
