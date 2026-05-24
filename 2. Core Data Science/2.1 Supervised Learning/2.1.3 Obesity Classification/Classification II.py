@@ -16,7 +16,7 @@ This module extends the basic supervised learning pipeline with advanced techniq
     - Production inference optimizations
     - Model monitoring and alerting
 
-Author: Data Science Team (Advanced Analytics)
+Author: Balasubramanian PG
 Date: 2026-05-24
 Version: 3.0
 """
