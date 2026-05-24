@@ -71,14 +71,14 @@ The dataset is therefore only a finite approximation of the underlying distribut
 
 The input space is defined as:
 
-$
+$$
 \mathcal{X} \subseteq \mathbb{R}^d
-$
+$$
 
 where:
 
-* (d) = number of features
-* (\mathbb{R}^d) = (d)-dimensional real-valued vector space
+- $d$ = number of features
+- $\mathbb{R}^d$ = $d$-dimensional real-valued vector space
 
 An individual sample is represented as:
 
