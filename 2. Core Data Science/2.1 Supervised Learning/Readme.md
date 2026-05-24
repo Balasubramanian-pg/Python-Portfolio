@@ -27,8 +27,6 @@ $
 (x_i, y_i)
 $
 
-
-
 and attempts to infer the hidden relationship governing the data generation process.
 
 This framework underlies:
@@ -50,7 +48,6 @@ $
 P(X,Y)
 $
 
-
 called the **joint probability distribution** over the random variables:
 
 * (X): input variables
@@ -59,8 +56,6 @@ called the **joint probability distribution** over the random variables:
 The learning algorithm never directly observes (P(X,Y)).
 
 Instead, it observes finite samples drawn from it.
-
-
 
 ## Intuition
 
@@ -76,8 +71,6 @@ Example:
 
 The dataset is therefore only a finite approximation of the underlying distribution.
 
-
-
 # 3. Input Space
 
 The input space is defined as:
@@ -85,8 +78,6 @@ The input space is defined as:
 $
 \mathcal{X} \subseteq \mathbb{R}^d
 $
-
-
 
 where:
 
@@ -104,10 +95,6 @@ x_2 \
 x_d
 \end{bmatrix}
 $
-
-
-
-
 
 ## Example
 
@@ -128,21 +115,15 @@ x =
 \end{bmatrix}
 $
 
-
-
 represents:
 
 * 2000 sq ft
 * 4 rooms
 * 10 years old
 
-
-
 # 4. Output Space
 
 The output space depends on the problem type.
-
-
 
 ## Regression
 
@@ -152,8 +133,6 @@ $
 \mathcal{Y} \subseteq \mathbb{R}
 $
 
-
-
 The output is continuous.
 
 Examples:
@@ -161,8 +140,6 @@ Examples:
 * stock prices
 * temperatures
 * sales forecasting
-
-
 
 ## Classification
 
@@ -174,21 +151,15 @@ $
 \mathcal{Y} = {0,1}
 $
 
-
-
 ### Multi-Class Classification
 
 $
 \mathcal{Y} = {1,2,\dots,C}
 $
 
-
-
 where:
 
 * (C) = number of classes
-
-
 
 # 5. Dataset Formulation
 
@@ -206,13 +177,9 @@ $
 }
 $
 
-
-
 where:
 
 * (N) = number of training samples
-
-
 
 # 6. IID Assumption
 
@@ -228,11 +195,7 @@ $
 P(X,Y)
 $
 
-
-
 This assumption contains two components:
-
-
 
 ## Independence
 
@@ -244,11 +207,7 @@ $
 P(x_i,x_j)=P(x_i)P(x_j)
 $
 
-
-
 for independent observations.
-
-
 
 ## Identically Distributed
 
@@ -258,16 +217,12 @@ $
 P_{train}(X,Y)=P_{test}(X,Y)
 $
 
-
-
 This assumption is often violated in real-world systems due to:
 
 * concept drift
 * domain shift
 * seasonality
 * changing user behavior
-
-
 
 # 7. Objective of Learning
 
@@ -277,11 +232,7 @@ $
 f \in \mathcal{H}
 $
 
-
-
 that minimizes prediction error.
-
-
 
 # 8. Hypothesis Space
 
@@ -291,11 +242,7 @@ $
 \mathcal{H}
 $
 
-
-
 is the set of all candidate functions the model can represent.
-
-
 
 ## Examples
 
@@ -305,29 +252,17 @@ $
 f(x)=w^Tx+b
 $
 
-
-
-
-
 ### Polynomial Models
 
 $
 f(x)=w_0+w_1x+w_2x^2+\dots+w_nx^n
 $
 
-
-
-
-
 ### Neural Networks
 
 $
 f(x)=\sigma(W_2\sigma(W_1x+b_1)+b_2)
 $
-
-
-
-
 
 # 9. Loss Function
 
@@ -337,19 +272,11 @@ $
 L(y,f(x))
 $
 
-
-
-
-
 ## Mean Squared Error (Regression)
 
 $
 L(y,\hat{y})=(y-\hat{y})^2
 $
-
-
-
-
 
 ## Mean Absolute Error
 
@@ -357,23 +284,14 @@ $
 L(y,\hat{y})=|y-\hat{y}|
 $
 
-
-
-
-
 ## Binary Cross Entropy
 
 $
 L(y,\hat{y})
-============
-
+=
 -y\log(\hat{y})
 -(1-y)\log(1-\hat{y})
 $
-
-
-
-
 
 # 10. Expected Risk
 
@@ -381,19 +299,11 @@ The true learning objective is minimizing expected risk:
 
 $
 R(f)
-====
-
+=
 \mathbb{E}_{(X,Y)\sim P(X,Y)}
 $L(Y,f(X))$
-
-
 $
-
-
-
 This represents the expected prediction error over the true data distribution.
-
-
 
 ## Expanded Form
 
@@ -401,28 +311,20 @@ For continuous variables:
 
 $
 R(f)
-====
-
+=
 \int
 L(y,f(x))
 ,dP(x,y)
 $
 
-
-
 For discrete variables:
 
 $
 R(f)
-====
-
+=
 \sum_{x,y}
 L(y,f(x))P(x,y)
 $
-
-
-
-
 
 # 11. Empirical Risk Minimization
 
@@ -432,32 +334,24 @@ The empirical risk is:
 
 $
 \hat{R}(f)
-==========
-
+=
 \frac{1}{N}
 \sum_{i=1}^{N}
 L(y_i,f(x_i))
 $
 
-
-
 Learning algorithms solve:
 
 $
 f^*
-===
-
+=
 \arg\min_{f\in\mathcal{H}}
 \hat{R}(f)
 $
 
-
-
 This principle is called:
 
 # Empirical Risk Minimization (ERM)
-
-
 
 # 12. Learning Pipeline
 
@@ -481,14 +375,9 @@ flowchart LR
 
 
 ```
-
-
-
 # 13. Optimization Problem
 
 Most supervised learning problems become optimization problems.
-
-
 
 ## General Optimization Objective
 
@@ -500,13 +389,9 @@ $
 \hat{R}(\theta)
 $
 
-
-
 where:
 
 * (\theta) = model parameters
-
-
 
 ## Linear Regression Example
 
@@ -516,22 +401,16 @@ $
 \hat{y}=w^Tx+b
 $
 
-
-
 Objective:
 
 $
 J(w,b)
-======
+=
 
 \frac{1}{N}
 \sum_{i=1}^{N}
 (y_i-(w^Tx_i+b))^2
 $
-
-
-
-
 
 # 14. Gradient Descent
 
@@ -539,22 +418,18 @@ Parameters are updated iteratively:
 
 $
 \theta_{t+1}
-============
+=
 
-## \theta_t
+## $\theta_t$
 
-\eta
+$\eta
 \nabla_\theta J(\theta_t)
 $
 
-
-
 where:
 
-* (\eta) = learning rate
-* (\nabla_\theta J) = gradient
-
-
+* $(\eta)$ = learning rate
+* $(\nabla_\theta J)$ = gradient
 
 # 15. Generalization
 
@@ -564,25 +439,17 @@ This ability is called:
 
 # Generalization
 
-
-
 ## Training Error
 
 $
 \hat{R}_{train}(f)
 $
 
-
-
-
-
 ## Test Error
 
 $
 \hat{R}_{test}(f)
 $
-
-
 
 Good models satisfy:
 
@@ -591,10 +458,6 @@ $
 \approx
 \hat{R}*{test}(f)
 $
-
-
-
-
 
 # 16. Overfitting
 
