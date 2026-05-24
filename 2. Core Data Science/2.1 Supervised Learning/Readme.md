@@ -431,17 +431,7 @@ flowchart TD
 Prediction error decomposes into:
 
 $$
-\mathbb{E}
-\left[
-(Y-\hat{f}(X))^2
-\right]
-=======
-
-Bias^2
-+
-Variance
-+
-Noise
+\mathbb{E} \left[ (Y - \hat{f}(X))^2 \right] = \text{Bias}^2 + \text{Variance} + \text{Noise}
 $$
 
 ## High Bias
@@ -461,23 +451,13 @@ Regularization controls model complexity.
 ## L2 Regularization
 
 $$
-J(w)
-====
-
-\hat{R}(w)
-+
-\lambda |w|_2^2
+J(w) = \hat{R}(w) + \lambda \|w\|_2^2
 $$
 
 ## L1 Regularization
 
 $$
-J(w)
-====
-
-\hat{R}(w)
-+
-\lambda |w|_1
+J(w) = \hat{R}(w) + \lambda \|w\|_1
 $$
 
 # 19. Bayesian Perspective
@@ -489,18 +469,15 @@ Bayesian learning treats parameters as random variables.
 ## Bayes Rule
 
 $$
-P(\theta|D)
-===========
-
-\frac{P(D|\theta)P(\theta)}{P(D)}
+P(\theta \mid D) = \frac{P(D \mid \theta) P(\theta)}{P(D)}
 $$
 
 where:
 
 * $P(\theta)$ = prior
-* $P(D|\theta)$ = likelihood
-* $P(\theta|D)$ = posterior
-
+* $P(D \mid \theta)$ = likelihood
+* $P(\theta \mid D)$ = posterior
+  
 # 20. Geometric Interpretation
 
 Machine learning can be viewed geometrically.
