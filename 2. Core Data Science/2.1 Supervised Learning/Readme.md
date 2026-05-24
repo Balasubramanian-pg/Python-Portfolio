@@ -20,9 +20,9 @@ $$
 
 where:
 
-- $\mathcal{X}$ represents the input space
-- $\mathcal{Y}$ represents the output space
-- $f$ is the predictive function
+* $\mathcal{X}$ represents the input space
+* $\mathcal{Y}$ represents the output space
+* $f$ is the predictive function
 
 The learning algorithm observes examples:
 
@@ -34,12 +34,12 @@ and attempts to infer the hidden relationship governing the data generation proc
 
 This framework underlies:
 
-- Linear Regression
-- Logistic Regression
-- Support Vector Machines
-- Decision Trees
-- Neural Networks
-- Ensemble Methods
+* Linear Regression
+* Logistic Regression
+* Support Vector Machines
+* Decision Trees
+* Neural Networks
+* Ensemble Methods
 
 # 2. Statistical View of Learning
 
@@ -49,10 +49,10 @@ $$
 P(X,Y)
 $$
 
-called the **joint probability distribution** over the random variables:
+called the joint probability distribution over the random variables:
 
-- $X$: input variables
-- $Y$: output variables
+* $X$: input variables
+* $Y$: output variables
 
 The learning algorithm never directly observes $P(X,Y)$.
 
@@ -64,10 +64,10 @@ Reality generates examples according to some hidden stochastic process.
 
 Example:
 
-| Features | Label |
-|---|---|
-| House size, location | House price |
-| Email content | Spam / Not Spam |
+| Features             | Label            |
+| -------------------- | ---------------- |
+| House size, location | House price      |
+| Email content        | Spam / Not Spam  |
 | Patient measurements | Disease category |
 
 The dataset is therefore only a finite approximation of the underlying distribution.
@@ -82,17 +82,17 @@ $$
 
 where:
 
-- $d$ = number of features
-- $\mathbb{R}^d$ = $d$-dimensional real-valued vector space
+* $d$ = number of features
+* $\mathbb{R}^d$ = $d$-dimensional real-valued vector space
 
 An individual sample is represented as:
 
 $$
 x =
 \begin{bmatrix}
-x_1 \\
-x_2 \\
-\vdots \\
+x_1 \
+x_2 \
+\vdots \
 x_d
 \end{bmatrix}
 $$
@@ -101,26 +101,26 @@ $$
 
 Suppose we predict house prices using:
 
-- area
-- number of rooms
-- age
+* area
+* number of rooms
+* age
 
 Then:
 
 $$
 x =
 \begin{bmatrix}
-2000 \\
-4 \\
+2000 \
+4 \
 10
 \end{bmatrix}
 $$
 
 represents:
 
-- 2000 sq ft
-- 4 rooms
-- 10 years old
+* 2000 sq ft
+* 4 rooms
+* 10 years old
 
 # 4. Output Space
 
@@ -138,9 +138,9 @@ The output is continuous.
 
 Examples:
 
-- stock prices
-- temperatures
-- sales forecasting
+* stock prices
+* temperatures
+* sales forecasting
 
 ## Classification
 
@@ -149,18 +149,18 @@ For classification:
 ### Binary Classification
 
 $$
-\mathcal{Y} = \{0,1\}
+\mathcal{Y} = {0,1}
 $$
 
 ### Multi-Class Classification
 
 $$
-\mathcal{Y} = \{1,2,\dots,C\}
+\mathcal{Y} = {1,2,\dots,C}
 $$
 
 where:
 
-- $C$ = number of classes
+* $C$ = number of classes
 
 # 5. Dataset Formulation
 
@@ -168,18 +168,19 @@ The training dataset consists of:
 
 $$
 \mathcal{D}
-=
-\{
+===========
+
+{
 (x_1,y_1),
 (x_2,y_2),
 \dots,
 (x_N,y_N)
-\}
+}
 $$
 
 where:
 
-- $N$ = number of training samples
+* $N$ = number of training samples
 
 # 6. IID Assumption
 
@@ -195,7 +196,7 @@ $$
 P(X,Y)
 $$
 
-This assumption contains two components:
+This assumption contains two components.
 
 ## Independence
 
@@ -219,10 +220,10 @@ $$
 
 This assumption is often violated in real-world systems due to:
 
-- concept drift
-- domain shift
-- seasonality
-- changing user behavior
+* concept drift
+* domain shift
+* seasonality
+* changing user behavior
 
 # 7. Objective of Learning
 
@@ -288,7 +289,8 @@ $$
 
 $$
 L(y,\hat{y})
-=
+============
+
 -y\log(\hat{y})
 -(1-y)\log(1-\hat{y})
 $$
@@ -299,7 +301,8 @@ The true learning objective is minimizing expected risk:
 
 $$
 R(f)
-=
+====
+
 \mathbb{E}_{(X,Y)\sim P(X,Y)}
 \left[
 L(Y,f(X))
@@ -314,17 +317,19 @@ For continuous variables:
 
 $$
 R(f)
-=
+====
+
 \int
 L(y,f(x))
-\, dP(x,y)
+, dP(x,y)
 $$
 
 For discrete variables:
 
 $$
 R(f)
-=
+====
+
 \sum_{x,y}
 L(y,f(x))P(x,y)
 $$
@@ -337,7 +342,8 @@ The empirical risk is:
 
 $$
 \hat{R}(f)
-=
+==========
+
 \frac{1}{N}
 \sum_{i=1}^{N}
 L(y_i,f(x_i))
@@ -347,14 +353,13 @@ Learning algorithms solve:
 
 $$
 f^*
-=
+===
+
 \arg\min_{f\in\mathcal{H}}
 \hat{R}(f)
 $$
 
-This principle is called:
-
-# Empirical Risk Minimization (ERM)
+This principle is called empirical risk minimization (ERM).
 
 # 12. Learning Pipeline
 
@@ -375,14 +380,15 @@ Most supervised learning problems become optimization problems.
 
 $$
 \theta^*
-=
+========
+
 \arg\min_{\theta}
 \hat{R}(\theta)
 $$
 
 where:
 
-- $\theta$ = model parameters
+* $\theta$ = model parameters
 
 ## Linear Regression Example
 
@@ -396,7 +402,8 @@ Objective:
 
 $$
 J(w,b)
-=
+======
+
 \frac{1}{N}
 \sum_{i=1}^{N}
 (y_i-(w^Tx_i+b))^2
@@ -408,25 +415,24 @@ Parameters are updated iteratively:
 
 $$
 \theta_{t+1}
-=
-\theta_t
--
+============
+
+## \theta_t
+
 \eta
 \nabla_\theta J(\theta_t)
 $$
 
 where:
 
-- $\eta$ = learning rate
-- $\nabla_\theta J$ = gradient
+* $\eta$ = learning rate
+* $\nabla_\theta J$ = gradient
 
 # 15. Generalization
 
 A model must perform well on unseen data.
 
-This ability is called:
-
-# Generalization
+This ability is called generalization.
 
 ## Training Error
 
@@ -443,9 +449,9 @@ $$
 Good models satisfy:
 
 $$
-\hat{R}_{train}(f)
+\hat{R}*{train}(f)
 \approx
-\hat{R}_{test}(f)
+\hat{R}*{test}(f)
 $$
 
 # 16. Overfitting
@@ -454,8 +460,8 @@ Overfitting occurs when the model memorizes noise.
 
 ## Characteristics
 
-- low training error
-- high test error
+* low training error
+* high test error
 
 ## Visual Intuition
 
@@ -475,7 +481,8 @@ $$
 \left[
 (Y-\hat{f}(X))^2
 \right]
-=
+=======
+
 Bias^2
 +
 Variance
@@ -485,13 +492,13 @@ $$
 
 ## High Bias
 
-- overly simple model
-- underfitting
+* overly simple model
+* underfitting
 
 ## High Variance
 
-- overly flexible model
-- overfitting
+* overly flexible model
+* overfitting
 
 # 18. Regularization
 
@@ -501,20 +508,22 @@ Regularization controls model complexity.
 
 $$
 J(w)
-=
+====
+
 \hat{R}(w)
 +
-\lambda \|w\|_2^2
+\lambda |w|_2^2
 $$
 
 ## L1 Regularization
 
 $$
 J(w)
-=
+====
+
 \hat{R}(w)
 +
-\lambda \|w\|_1
+\lambda |w|_1
 $$
 
 # 19. Bayesian Perspective
@@ -527,15 +536,16 @@ Bayesian learning treats parameters as random variables.
 
 $$
 P(\theta|D)
-=
+===========
+
 \frac{P(D|\theta)P(\theta)}{P(D)}
 $$
 
 where:
 
-- $P(\theta)$ = prior
-- $P(D|\theta)$ = likelihood
-- $P(\theta|D)$ = posterior
+* $P(\theta)$ = prior
+* $P(D|\theta)$ = likelihood
+* $P(\theta|D)$ = posterior
 
 # 20. Geometric Interpretation
 
@@ -555,17 +565,17 @@ defines a hyperplane separating classes.
 
 In $d$-dimensional space:
 
-- line → 2D
-- plane → 3D
-- hyperplane → $d$-dimensions
+* line → 2D
+* plane → 3D
+* hyperplane → $d$-dimensions
 
 # 21. Computational Complexity
 
 Training cost depends on:
 
-- dataset size
-- feature dimension
-- model complexity
+* dataset size
+* feature dimension
+* model complexity
 
 ## Example Complexity
 
@@ -695,17 +705,17 @@ No model can perfectly infer reality from finite data.
 
 Learning theory fundamentally deals with:
 
-- uncertainty
-- approximation
-- statistical estimation
+* uncertainty
+* approximation
+* statistical estimation
 
 # 28. Connection to Deep Learning
 
 Deep learning extends this framework by:
 
-- using extremely large hypothesis spaces
-- learning hierarchical representations
-- optimizing millions or billions of parameters
+* using extremely large hypothesis spaces
+* learning hierarchical representations
+* optimizing millions or billions of parameters
 
 Yet the core formulation remains unchanged:
 
@@ -722,10 +732,11 @@ Supervised learning consists of:
 
 $$
 \mathcal{D}
-=
-\{
+===========
+
+{
 (x_i,y_i)
-\}_{i=1}^{N}
+}_{i=1}^{N}
 $$
 
 ## Hypothesis Space
@@ -744,7 +755,8 @@ $$
 
 $$
 f^*
-=
+===
+
 \arg\min_{f\in\mathcal{H}}
 \frac{1}{N}
 \sum_{i=1}^{N}
@@ -755,12 +767,434 @@ $$
 
 Supervised learning is fundamentally:
 
-- statistical inference
-- function approximation
-- optimization under uncertainty
+* statistical inference
+* function approximation
+* optimization under uncertainty
 
 Its central challenge is not merely fitting data.
 
-The true challenge is:
+The true challenge is learning structure that generalizes beyond observed samples.
 
-# learning structure that generalizes beyond observed samples.
+# 31. Loss Functions and Risk Minimization
+
+To measure how good a hypothesis $f$ is, we define a loss function:
+
+$$
+L: \mathcal{Y} \times \mathcal{Y} \to \mathbb{R}_{\ge 0}
+$$
+
+The loss:
+
+$$
+L(y, f(\mathbf{x}))
+$$
+
+quantifies the penalty for predicting $f(\mathbf{x})$ when the true label is $y$.
+
+## Common Loss Functions
+
+### Mean Squared Error (MSE)
+
+$$
+L(y, f(\mathbf{x})) = (y - f(\mathbf{x}))^2
+$$
+
+### Absolute Error Loss
+
+$$
+L(y, f(\mathbf{x})) = |y - f(\mathbf{x})|
+$$
+
+### Cross Entropy Loss
+
+$$
+L(y, f(\mathbf{x}))
+===================
+
+*
+
+\left(
+y \log(f(\mathbf{x}))
++
+(1 - y) \log(1 - f(\mathbf{x}))
+\right)
+$$
+
+## Expected Risk vs Empirical Risk
+
+### Expected Risk
+
+$$
+R(f)
+====
+
+\mathbb{E}_{(X,Y) \sim P}
+\left[
+L(Y, f(X))
+\right]
+$$
+
+Expanded form:
+
+$$
+R(f)
+====
+
+\iint_{\mathcal{X} \times \mathcal{Y}}
+L(y, f(\mathbf{x}))
+P(\mathbf{x}, y)
+, d\mathbf{x} , dy
+$$
+
+### Empirical Risk
+
+$$
+R_{emp}(f)
+==========
+
+\frac{1}{N}
+\sum_{i=1}^N
+L(y_i, f(\mathbf{x}_i))
+$$
+
+### Empirical Risk Minimization
+
+$$
+\hat{f}
+=======
+
+\arg\min_{f \in \mathcal{H}}
+R_{emp}(f)
+$$
+
+# 32. Regularization and Structural Risk Minimization
+
+Minimizing empirical risk too aggressively can lead to overfitting.
+
+To counter this, we add a regularization penalty:
+
+$$
+\Omega(f)
+$$
+
+The objective becomes:
+
+$$
+\hat{f}
+=======
+
+\arg\min_{f \in \mathcal{H}}
+\left(
+R_{emp}(f)
++
+\lambda \Omega(f)
+\right)
+$$
+
+where:
+
+* $\lambda > 0$ is a hyperparameter controlling model complexity.
+
+## Common Regularizers
+
+### L2 Regularization
+
+$$
+\Omega(\mathbf{\theta})
+=======================
+
+# |\mathbf{\theta}|_2^2
+
+\sum_{j=1}^d \theta_j^2
+$$
+
+### L1 Regularization
+
+$$
+\Omega(\mathbf{\theta})
+=======================
+
+# |\mathbf{\theta}|_1
+
+\sum_{j=1}^d |\theta_j|
+$$
+
+# 33. Linear Regression
+
+In linear regression, we assume the relationship between inputs and outputs is linear.
+
+$$
+f(\mathbf{x}; \mathbf{\theta})
+==============================
+
+# \mathbf{\theta}^T \mathbf{x}
+
+\theta_0 + \theta_1 x_1 + \dots + \theta_d x_d
+$$
+
+Using mean squared error, the cost function becomes:
+
+$$
+J(\mathbf{\theta})
+==================
+
+\frac{1}{2N}
+\sum_{i=1}^N
+(y_i - \mathbf{\theta}^T \mathbf{x}_i)^2
+$$
+
+## Vectorized Representation
+
+Let:
+
+* $X \in \mathbb{R}^{N \times (d+1)}$
+* $\mathbf{y} \in \mathbb{R}^N$
+
+Then:
+
+$$
+J(\mathbf{\theta})
+==================
+
+\frac{1}{2N}
+|X\mathbf{\theta} - \mathbf{y}|_2^2
+$$
+
+Expanded:
+
+$$
+J(\mathbf{\theta})
+==================
+
+\frac{1}{2N}
+(X\mathbf{\theta} - \mathbf{y})^T
+(X\mathbf{\theta} - \mathbf{y})
+$$
+
+## Normal Equation
+
+$$
+\nabla_{\mathbf{\theta}} J(\mathbf{\theta})
+===========================================
+
+\frac{1}{N}
+X^T(X\mathbf{\theta} - \mathbf{y})
+==================================
+
+\mathbf{0}
+$$
+
+$$
+X^T X \mathbf{\theta}
+=====================
+
+X^T \mathbf{y}
+$$
+
+$$
+\mathbf{\theta}^*
+=================
+
+(X^T X)^{-1} X^T \mathbf{y}
+$$
+
+# 34. Logistic Regression
+
+For binary classification:
+
+$$
+\mathcal{Y} = {0,1}
+$$
+
+We use the sigmoid function:
+
+$$
+\sigma(z)
+=========
+
+\frac{1}{1 + e^{-z}}
+$$
+
+The hypothesis becomes:
+
+$$
+h_{\mathbf{\theta}}(\mathbf{x})
+===============================
+
+# \sigma(\mathbf{\theta}^T \mathbf{x})
+
+\frac{1}{1 + e^{-\mathbf{\theta}^T \mathbf{x}}}
+$$
+
+## Probabilistic Interpretation
+
+$$
+P(Y = 1 \mid \mathbf{x}; \mathbf{\theta})
+=========================================
+
+h_{\mathbf{\theta}}(\mathbf{x})
+$$
+
+$$
+P(Y = 0 \mid \mathbf{x}; \mathbf{\theta})
+=========================================
+
+1 - h_{\mathbf{\theta}}(\mathbf{x})
+$$
+
+Compact representation:
+
+$$
+P(y \mid \mathbf{x}; \mathbf{\theta})
+=====================================
+
+\left(h_{\mathbf{\theta}}(\mathbf{x})\right)^y
+\left(1 - h_{\mathbf{\theta}}(\mathbf{x})\right)^{1-y}
+$$
+
+## Likelihood Function
+
+$$
+L(\mathbf{\theta})
+==================
+
+\prod_{i=1}^N
+\left(h_{\mathbf{\theta}}(\mathbf{x}*i)\right)^{y_i}
+\left(1 - h*{\mathbf{\theta}}(\mathbf{x}_i)\right)^{1-y_i}
+$$
+
+## Binary Cross Entropy Objective
+
+$$
+J(\mathbf{\theta})
+==================
+
+*
+
+\frac{1}{N}
+\sum_{i=1}^N
+\left(
+y_i \ln h_{\mathbf{\theta}}(\mathbf{x}*i)
++
+(1-y_i) \ln(1 - h*{\mathbf{\theta}}(\mathbf{x}_i))
+\right)
+$$
+
+## Gradient Descent Update
+
+$$
+\frac{\partial J(\mathbf{\theta})}{\partial \theta_j}
+=====================================================
+
+\frac{1}{N}
+\sum_{i=1}^N
+\left(
+h_{\mathbf{\theta}}(\mathbf{x}*i) - y_i
+\right)
+x*{ij}
+$$
+
+Vectorized update:
+
+$$
+\mathbf{\theta}^{(t+1)}
+=======================
+
+## \mathbf{\theta}^{(t)}
+
+\alpha
+\frac{1}{N}
+X^T
+\left(
+\sigma(X\mathbf{\theta}^{(t)}) - \mathbf{y}
+\right)
+$$
+
+# 35. Bias Variance Decomposition
+
+Assume the true relation is:
+
+$$
+y = f(\mathbf{x}) + \epsilon
+$$
+
+where:
+
+$$
+\mathbb{E}[\epsilon] = 0
+$$
+
+and:
+
+$$
+\text{Var}(\epsilon) = \sigma^2
+$$
+
+The expected squared prediction error becomes:
+
+$$
+\mathbb{E}_D
+\left[
+\left(y - \hat{f}(\mathbf{x}; D)\right)^2
+\right]
+=======
+
+\text{Bias}(\hat{f}(\mathbf{x}))^2
++
+\text{Var}(\hat{f}(\mathbf{x}))
++
+\sigma^2
+$$
+
+## Bias
+
+$$
+\text{Bias}(\hat{f}(\mathbf{x}))
+================================
+
+\mathbb{E}_D
+\left[
+\hat{f}(\mathbf{x}; D)
+\right]
+-------
+
+f(\mathbf{x})
+$$
+
+## Variance
+
+$$
+\text{Var}(\hat{f}(\mathbf{x}))
+===============================
+
+\mathbb{E}_D
+\left[
+\left(
+\hat{f}(\mathbf{x}; D)
+----------------------
+
+\mathbb{E}_D
+\left[
+\hat{f}(\mathbf{x}; D)
+\right]
+\right)^2
+\right]
+$$
+
+## Irreducible Error
+
+$$
+\sigma^2
+$$
+
+represents environmental noise that cannot be eliminated.
+
+# 36. Summary Table
+
+| Step            | Goal                        | Mathematical Object              |
+| --------------- | --------------------------- | -------------------------------- |
+| Model Setup     | Define prediction function  | $f(\mathbf{x}; \mathbf{\theta})$ |
+| Loss Definition | Penalize prediction errors  | $L(y,f(\mathbf{x}))$             |
+| Optimization    | Minimize objective          | $\arg\min$                       |
+| Regularization  | Control complexity          | $\lambda \Omega(\theta)$         |
+| Generalization  | Perform well on unseen data | Test Risk                        |
