@@ -288,11 +288,7 @@ $$
 ## Binary Cross Entropy
 
 $$
-L(y,\hat{y})
-============
-
--y\log(\hat{y})
--(1-y)\log(1-\hat{y})
+L(y,\hat{y}) = -y \log(\hat{y}) - (1-y) \log(1-\hat{y})
 $$
 
 # 10. Expected Risk
@@ -300,13 +296,7 @@ $$
 The true learning objective is minimizing expected risk:
 
 $$
-R(f)
-====
-
-\mathbb{E}_{(X,Y)\sim P(X,Y)}
-\left[
-L(Y,f(X))
-\right]
+R(f) = \mathbb{E}_{(X,Y)\sim P(X,Y)} \left[ L(Y,f(X)) \right]
 $$
 
 This represents the expected prediction error over the true data distribution.
@@ -316,22 +306,13 @@ This represents the expected prediction error over the true data distribution.
 For continuous variables:
 
 $$
-R(f)
-====
-
-\int
-L(y,f(x))
-, dP(x,y)
+R(f) = \int L(y,f(x)) \, dP(x,y)
 $$
 
 For discrete variables:
 
 $$
-R(f)
-====
-
-\sum_{x,y}
-L(y,f(x))P(x,y)
+R(f) = \sum_{x,y} L(y,f(x)) P(x,y)
 $$
 
 # 11. Empirical Risk Minimization
