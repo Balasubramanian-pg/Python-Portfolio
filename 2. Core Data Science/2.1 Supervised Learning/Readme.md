@@ -42,9 +42,7 @@ This framework underlies:
 
 Supervised learning assumes that data is generated from an unknown probability distribution:
 
-$
-P(X,Y)
-$
+$$P(X,Y)$$
 
 called the **joint probability distribution** over the random variables:
 
