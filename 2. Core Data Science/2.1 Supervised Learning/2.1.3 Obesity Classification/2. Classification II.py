@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Advanced Obesity Classification - Explainability, Ensembles, and Production Readiness
 ======================================================================================
