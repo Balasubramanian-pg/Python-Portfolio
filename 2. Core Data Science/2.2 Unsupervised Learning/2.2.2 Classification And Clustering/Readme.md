@@ -2,7 +2,8 @@
 
 This directory contains conceptual notes, mathematical formulations, and implementation details for **Classification** and **Clustering**. 
 
-> **Conceptual Note:** While *Classification* is a **Supervised Learning** task (requiring labeled training data) and *Clustering* is an **Unsupervised Learning** task (working with unlabeled data), they are grouped together here to contrast how algorithms partition data spaces with and without prior knowledge of class labels.
+> [!Tip]
+> While *Classification* is a **Supervised Learning** task (requiring labeled training data) and *Clustering* is an **Unsupervised Learning** task (working with unlabeled data), they are grouped together here to contrast how algorithms partition data spaces with and without prior knowledge of class labels.
 
 ## 1. High-Level Comparison
 
