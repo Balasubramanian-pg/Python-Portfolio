@@ -11,9 +11,9 @@ The objective is to learn a mapping between input variables and output variables
 
 Formally, supervised learning attempts to estimate an unknown functional relationship:
 
-[
+$$
 f : \mathcal{X} \rightarrow \mathcal{Y}
-]
+$$
 
 where:
 
@@ -23,9 +23,11 @@ where:
 
 The learning algorithm observes examples:
 
-[
+$
 (x_i, y_i)
-]
+$
+
+
 
 and attempts to infer the hidden relationship governing the data generation process.
 
@@ -38,15 +40,16 @@ This framework underlies:
 * Neural Networks
 * Ensemble Methods
 
----
+
 
 # 2. Statistical View of Learning
 
 Supervised learning assumes that data is generated from an unknown probability distribution:
 
-[
+$
 P(X,Y)
-]
+$
+
 
 called the **joint probability distribution** over the random variables:
 
@@ -57,7 +60,7 @@ The learning algorithm never directly observes (P(X,Y)).
 
 Instead, it observes finite samples drawn from it.
 
----
+
 
 ## Intuition
 
@@ -66,22 +69,24 @@ Reality generates examples according to some hidden stochastic process.
 Example:
 
 | Features             | Label            |
-| -------------------- | ---------------- |
+| -- | - |
 | House size, location | House price      |
 | Email content        | Spam / Not Spam  |
 | Patient measurements | Disease category |
 
 The dataset is therefore only a finite approximation of the underlying distribution.
 
----
+
 
 # 3. Input Space
 
 The input space is defined as:
 
-[
+$
 \mathcal{X} \subseteq \mathbb{R}^d
-]
+$
+
+
 
 where:
 
@@ -90,7 +95,7 @@ where:
 
 An individual sample is represented as:
 
-[
+$
 x =
 \begin{bmatrix}
 x_1 \
@@ -98,9 +103,11 @@ x_2 \
 \vdots \
 x_d
 \end{bmatrix}
-]
+$
 
----
+
+
+
 
 ## Example
 
@@ -112,14 +119,16 @@ Suppose we predict house prices using:
 
 Then:
 
-[
+$
 x =
 \begin{bmatrix}
 2000 \
 4 \
 10
 \end{bmatrix}
-]
+$
+
+
 
 represents:
 
@@ -127,21 +136,23 @@ represents:
 * 4 rooms
 * 10 years old
 
----
+
 
 # 4. Output Space
 
 The output space depends on the problem type.
 
----
+
 
 ## Regression
 
 For regression:
 
-[
+$
 \mathcal{Y} \subseteq \mathbb{R}
-]
+$
+
+
 
 The output is continuous.
 
@@ -151,7 +162,7 @@ Examples:
 * temperatures
 * sales forecasting
 
----
+
 
 ## Classification
 
@@ -159,27 +170,31 @@ For classification:
 
 ### Binary Classification
 
-[
+$
 \mathcal{Y} = {0,1}
-]
+$
+
+
 
 ### Multi-Class Classification
 
-[
+$
 \mathcal{Y} = {1,2,\dots,C}
-]
+$
+
+
 
 where:
 
 * (C) = number of classes
 
----
+
 
 # 5. Dataset Formulation
 
 The training dataset consists of:
 
-[
+$
 \mathcal{D}
 ===========
 
@@ -189,13 +204,15 @@ The training dataset consists of:
 \dots,
 (x_N,y_N)
 }
-]
+$
+
+
 
 where:
 
 * (N) = number of training samples
 
----
+
 
 # 6. IID Assumption
 
@@ -205,15 +222,17 @@ Training examples are assumed to be:
 
 Formally:
 
-[
+$
 (x_i,y_i)
 \overset{iid}{\sim}
 P(X,Y)
-]
+$
+
+
 
 This assumption contains two components:
 
----
+
 
 ## Independence
 
@@ -221,21 +240,25 @@ Each sample is statistically independent of others.
 
 Formally:
 
-[
+$
 P(x_i,x_j)=P(x_i)P(x_j)
-]
+$
+
+
 
 for independent observations.
 
----
+
 
 ## Identically Distributed
 
 All samples originate from the same distribution:
 
-[
+$
 P_{train}(X,Y)=P_{test}(X,Y)
-]
+$
+
+
 
 This assumption is often violated in real-world systems due to:
 
@@ -244,136 +267,162 @@ This assumption is often violated in real-world systems due to:
 * seasonality
 * changing user behavior
 
----
+
 
 # 7. Objective of Learning
 
 The goal is to find a function:
 
-[
+$
 f \in \mathcal{H}
-]
+$
+
+
 
 that minimizes prediction error.
 
----
+
 
 # 8. Hypothesis Space
 
 The hypothesis space:
 
-[
+$
 \mathcal{H}
-]
+$
+
+
 
 is the set of all candidate functions the model can represent.
 
----
+
 
 ## Examples
 
 ### Linear Models
 
-[
+$
 f(x)=w^Tx+b
-]
+$
 
----
+
+
+
 
 ### Polynomial Models
 
-[
+$
 f(x)=w_0+w_1x+w_2x^2+\dots+w_nx^n
-]
+$
 
----
+
+
+
 
 ### Neural Networks
 
-[
+$
 f(x)=\sigma(W_2\sigma(W_1x+b_1)+b_2)
-]
+$
 
----
+
+
+
 
 # 9. Loss Function
 
 The quality of predictions is measured using a loss function:
 
-[
+$
 L(y,f(x))
-]
+$
 
----
+
+
+
 
 ## Mean Squared Error (Regression)
 
-[
+$
 L(y,\hat{y})=(y-\hat{y})^2
-]
+$
 
----
+
+
+
 
 ## Mean Absolute Error
 
-[
+$
 L(y,\hat{y})=|y-\hat{y}|
-]
+$
 
----
+
+
+
 
 ## Binary Cross Entropy
 
-[
+$
 L(y,\hat{y})
 ============
 
 -y\log(\hat{y})
 -(1-y)\log(1-\hat{y})
-]
+$
 
----
+
+
+
 
 # 10. Expected Risk
 
 The true learning objective is minimizing expected risk:
 
-[
+$
 R(f)
 ====
 
 \mathbb{E}_{(X,Y)\sim P(X,Y)}
-[L(Y,f(X))]
-]
+$L(Y,f(X))$
+
+
+$
+
+
 
 This represents the expected prediction error over the true data distribution.
 
----
+
 
 ## Expanded Form
 
 For continuous variables:
 
-[
+$
 R(f)
 ====
 
 \int
 L(y,f(x))
 ,dP(x,y)
-]
+$
+
+
 
 For discrete variables:
 
-[
+$
 R(f)
 ====
 
 \sum_{x,y}
 L(y,f(x))P(x,y)
-]
+$
 
----
+
+
+
 
 # 11. Empirical Risk Minimization
 
@@ -381,92 +430,114 @@ Since the true distribution is unknown, we approximate risk using the dataset.
 
 The empirical risk is:
 
-[
+$
 \hat{R}(f)
 ==========
 
 \frac{1}{N}
 \sum_{i=1}^{N}
 L(y_i,f(x_i))
-]
+$
+
+
 
 Learning algorithms solve:
 
-[
+$
 f^*
 ===
 
 \arg\min_{f\in\mathcal{H}}
 \hat{R}(f)
-]
+$
+
+
 
 This principle is called:
 
 # Empirical Risk Minimization (ERM)
 
----
+
 
 # 12. Learning Pipeline
 
 ```mermaid
 flowchart LR
-    A[Unknown Distribution P(X,Y)] --> B[Sample Dataset]
-    B --> C[Training Data]
-    C --> D[Model Training]
-    D --> E[Learned Function f(x)]
-    E --> F[Predictions on Unseen Data]
+    A$Unknown Distribution P(X,Y)$
+
+ --> B$Sample Dataset$
+
+
+    B --> C$Training Data$
+
+
+    C --> D$Model Training$
+
+
+    D --> E$Learned Function f(x)$
+
+
+    E --> F$Predictions on Unseen Data$
+
+
 ```
 
----
+
 
 # 13. Optimization Problem
 
 Most supervised learning problems become optimization problems.
 
----
+
 
 ## General Optimization Objective
 
-[
+$
 \theta^*
 ========
 
 \arg\min_{\theta}
 \hat{R}(\theta)
-]
+$
+
+
 
 where:
 
 * (\theta) = model parameters
 
----
+
 
 ## Linear Regression Example
 
 Model:
 
-[
+$
 \hat{y}=w^Tx+b
-]
+$
+
+
 
 Objective:
 
-[
+$
 J(w,b)
 ======
 
 \frac{1}{N}
 \sum_{i=1}^{N}
 (y_i-(w^Tx_i+b))^2
-]
+$
 
----
+
+
+
 
 # 14. Gradient Descent
 
 Parameters are updated iteratively:
 
-[
+$
 \theta_{t+1}
 ============
 
@@ -474,14 +545,16 @@ Parameters are updated iteratively:
 
 \eta
 \nabla_\theta J(\theta_t)
-]
+$
+
+
 
 where:
 
 * (\eta) = learning rate
 * (\nabla_\theta J) = gradient
 
----
+
 
 # 15. Generalization
 
@@ -491,62 +564,82 @@ This ability is called:
 
 # Generalization
 
----
+
 
 ## Training Error
 
-[
+$
 \hat{R}_{train}(f)
-]
+$
 
----
+
+
+
 
 ## Test Error
 
-[
+$
 \hat{R}_{test}(f)
-]
+$
+
+
 
 Good models satisfy:
 
-[
+$
 \hat{R}*{train}(f)
 \approx
 \hat{R}*{test}(f)
-]
+$
 
----
+
+
+
 
 # 16. Overfitting
 
 Overfitting occurs when the model memorizes noise.
 
----
+
 
 ## Characteristics
 
 * low training error
 * high test error
 
----
+
 
 ## Visual Intuition
 
 ```mermaid
 flowchart TD
-    A[Simple Model] --> B[Underfitting]
-    C[Balanced Complexity] --> D[Good Generalization]
-    E[Very Complex Model] --> F[Overfitting]
+    A$Simple Model$
+
+ --> B$Underfitting$
+
+
+    C$Balanced Complexity$
+
+ --> D$Good Generalization$
+
+
+    E$Very Complex Model$
+
+ --> F$Overfitting$
+
+
 ```
 
----
+
 
 # 17. Bias-Variance Tradeoff
 
 Prediction error decomposes into:
 
-[
-\mathbb{E}[(Y-\hat{f}(X))^2]
+$
+\mathbb{E}$(Y-\hat{f}(X))^2$
+
+
 ============================
 
 Bias^2
@@ -554,55 +647,61 @@ Bias^2
 Variance
 +
 Noise
-]
+$
 
----
+
+
+
 
 ## High Bias
 
 * overly simple model
 * underfitting
 
----
+
 
 ## High Variance
 
 * overly flexible model
 * overfitting
 
----
+
 
 # 18. Regularization
 
 Regularization controls model complexity.
 
----
+
 
 ## L2 Regularization
 
-[
+$
 J(w)
 ====
 
 \hat{R}(w)
 +
 \lambda ||w||_2^2
-]
+$
 
----
+
+
+
 
 ## L1 Regularization
 
-[
+$
 J(w)
 ====
 
 \hat{R}(w)
 +
 \lambda ||w||_1
-]
+$
 
----
+
+
+
 
 # 19. Bayesian Perspective
 
@@ -610,7 +709,7 @@ Frequentist learning estimates fixed parameters.
 
 Bayesian learning treats parameters as random variables.
 
----
+
 
 ## Bayes Rule
 
@@ -622,25 +721,27 @@ where:
 * (P(D|\theta)) = likelihood
 * (P(\theta|D)) = posterior
 
----
+
 
 # 20. Geometric Interpretation
 
 Machine learning can be viewed geometrically.
 
----
+
 
 ## Linear Classification
 
 Decision boundary:
 
-[
+$
 w^Tx+b=0
-]
+$
+
+
 
 defines a hyperplane separating classes.
 
----
+
 
 ## Higher Dimensions
 
@@ -650,7 +751,7 @@ In (d)-dimensional space:
 * plane → 3D
 * hyperplane → (d)-dimensions
 
----
+
 
 # 21. Computational Complexity
 
@@ -660,29 +761,33 @@ Training cost depends on:
 * feature dimension
 * model complexity
 
----
+
 
 ## Example Complexity
 
 ### Linear Regression (Closed Form)
 
-[
+$
 O(d^3)
-]
+$
+
+
 
 due to matrix inversion.
 
----
+
 
 ## Gradient Descent
 
-[
+$
 O(Nd)
-]
+$
+
+
 
 per iteration.
 
----
+
 
 # 22. Python Example: Linear Regression
 
@@ -691,19 +796,31 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # Training data
-X = np.array([
-    [1000],
-    [1500],
-    [2000],
-    [2500]
-])
+X = np.array($
+    $1000$
 
-y = np.array([
+,
+    $1500$
+
+,
+    $2000$
+
+,
+    $2500$
+
+
+$
+
+)
+
+y = np.array($
     200000,
     300000,
     400000,
     500000
-])
+$
+
+)
 
 # Create model
 model = LinearRegression()
@@ -712,12 +829,16 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Predict unseen value
-prediction = model.predict([[1800]])
+prediction = model.predict($$1800$
+
+$
+
+)
 
 print(prediction)
 ```
 
----
+
 
 # 23. Python Example: Loss Computation
 
@@ -725,10 +846,14 @@ print(prediction)
 import numpy as np
 
 # True values
-y_true = np.array([3, -0.5, 2, 7])
+y_true = np.array($3, -0.5, 2, 7$
+
+)
 
 # Predicted values
-y_pred = np.array([2.5, 0.0, 2, 8])
+y_pred = np.array($2.5, 0.0, 2, 8$
+
+)
 
 # Mean Squared Error
 mse = np.mean((y_true - y_pred) ** 2)
@@ -736,7 +861,7 @@ mse = np.mean((y_true - y_pred) ** 2)
 print("MSE:", mse)
 ```
 
----
+
 
 # 24. Simple Gradient Descent Example
 
@@ -759,22 +884,38 @@ for step in range(20):
     print(f"Step {step}: x = {x}")
 ```
 
----
+
 
 # 25. Complete Learning Framework
 
 ```mermaid
 flowchart TD
-    A[Real World Process] --> B[Unknown Distribution P(X,Y)]
-    B --> C[Sample Training Data]
-    C --> D[Choose Hypothesis Space]
-    D --> E[Define Loss Function]
-    E --> F[Optimization]
-    F --> G[Learned Model]
-    G --> H[Generalization]
+    A$Real World Process$
+
+ --> B$Unknown Distribution P(X,Y)$
+
+
+    B --> C$Sample Training Data$
+
+
+    C --> D$Choose Hypothesis Space$
+
+
+    D --> E$Define Loss Function$
+
+
+    E --> F$Optimization$
+
+
+    F --> G$Learned Model$
+
+
+    G --> H$Generalization$
+
+
 ```
 
----
+
 
 # 26. Important Hidden Assumptions
 
@@ -784,7 +925,7 @@ Assumes labels are accurate.
 
 Often false in practice.
 
----
+
 
 ## Stationary Distribution
 
@@ -792,7 +933,7 @@ Assumes future resembles past.
 
 Often violated.
 
----
+
 
 ## Sufficient Features
 
@@ -800,7 +941,7 @@ Assumes features contain predictive signal.
 
 Poor features fundamentally limit learning.
 
----
+
 
 # 27. Theoretical Limitation
 
@@ -812,7 +953,7 @@ Learning theory fundamentally deals with:
 * approximation
 * statistical estimation
 
----
+
 
 # 28. Connection to Deep Learning
 
@@ -824,51 +965,59 @@ Deep learning extends this framework by:
 
 Yet the core formulation remains unchanged:
 
-[
+$
 \min_{f\in\mathcal{H}}
 \hat{R}(f)
-]
+$
 
----
+
+
+
 
 # 29. Final Mathematical Summary
 
 Supervised learning consists of:
 
----
+
 
 ## Data
 
-[
+$
 \mathcal{D}
 ===========
 
 {
 (x_i,y_i)
 }_{i=1}^{N}
-]
+$
 
----
+
+
+
 
 ## Hypothesis Space
 
-[
+$
 f \in \mathcal{H}
-]
+$
 
----
+
+
+
 
 ## Loss Function
 
-[
+$
 L(y,f(x))
-]
+$
 
----
+
+
+
 
 ## Objective
 
-[
+$
 f^*
 ===
 
@@ -876,9 +1025,11 @@ f^*
 \frac{1}{N}
 \sum_{i=1}^{N}
 L(y_i,f(x_i))
-]
+$
 
----
+
+
+
 
 # 30. Final Takeaways
 
@@ -912,7 +1063,9 @@ To measure how "good" a hypothesis $f$ is, we define a **Loss Function** $L: \ma
 ### Expected Risk vs. Empirical Risk
 
 *   **Expected Risk (True Risk):** The expected loss over the entire data-generating distribution $P(X, Y)$:
-    $$R(f) = \mathbb{E}_{(X,Y) \sim P}[L(Y, f(X))] = \iint_{\mathcal{X} \times \mathcal{Y}} L(y, f(\mathbf{x})) P(\mathbf{x}, y) d\mathbf{x} dy$$
+    $$R(f) = \mathbb{E}_{(X,Y) \sim P}$L(Y, f(X))$
+
+ = \iint_{\mathcal{X} \times \mathcal{Y}} L(y, f(\mathbf{x})) P(\mathbf{x}, y) d\mathbf{x} dy$$
     Because the joint distribution $P(X, Y)$ is unknown, we cannot calculate $R(f)$ directly.
 
 *   **Empirical Risk:** The average loss measured over our finite training dataset $D$:
@@ -987,7 +1140,9 @@ Assuming the data points are conditionally independent, the likelihood of the pa
 $$L(\mathbf{\theta}) = \prod_{i=1}^N P(y_i \mid \mathbf{x}_i; \mathbf{\theta}) = \prod_{i=1}^N \left( h_{\mathbf{\theta}}(\mathbf{x}_i) \right)^{y_i} \left( 1 - h_{\mathbf{\theta}}(\mathbf{x}_i) \right)^{1-y_i}$$
 
 We maximize this likelihood by minimizing the negative log-likelihood (also known as the Binary Cross-Entropy loss):
-$$J(\mathbf{\theta}) = -\frac{1}{N} \ln L(\mathbf{\theta}) = -\frac{1}{N} \sum_{i=1}^N \Big[ y_i \ln h_{\mathbf{\theta}}(\mathbf{x}_i) + (1-y_i) \ln (1 - h_{\mathbf{\theta}}(\mathbf{x}_i)) \Big]$$
+$$J(\mathbf{\theta}) = -\frac{1}{N} \ln L(\mathbf{\theta}) = -\frac{1}{N} \sum_{i=1}^N \Big$ y_i \ln h_{\mathbf{\theta}}(\mathbf{x}_i) + (1-y_i) \ln (1 - h_{\mathbf{\theta}}(\mathbf{x}_i)) \Big$
+
+$$
 
 #### Optimization via Gradient Descent
 Because $J(\mathbf{\theta})$ has no analytical closed-form minimum, we use an iterative optimization algorithm like **Gradient Descent**.
@@ -1003,16 +1158,34 @@ where $\alpha > 0$ is the learning rate.
 
 To understand how supervised learning algorithms generalize, we can decompose the expected generalization error. 
 
-Assume the true relation is $y = f(\mathbf{x}) + \epsilon$, where $\mathbb{E}[\epsilon] = 0$ and $\text{Var}(\epsilon) = \sigma^2$ (irreducible error representing environmental noise).
+Assume the true relation is $y = f(\mathbf{x}) + \epsilon$, where $\mathbb{E}$\epsilon$
+
+ = 0$ and $\text{Var}(\epsilon) = \sigma^2$ (irreducible error representing environmental noise).
 
 Let $\hat{f}(\mathbf{x}; D)$ be the estimate of $f$ trained on a random dataset $D$. The expected squared prediction error of our model at a point $\mathbf{x}$ across all possible datasets $D$ is:
 
-$$\mathbb{E}_D \left[ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right] = \text{Bias}\left[\hat{f}(\mathbf{x})\right]^2 + \text{Var}\left[\hat{f}(\mathbf{x})\right] + \sigma^2$$
+$$\mathbb{E}_D \left$ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right$
+
+ = \text{Bias}\left$\hat{f}(\mathbf{x})\right$
+
+^2 + \text{Var}\left$\hat{f}(\mathbf{x})\right$
+
+ + \sigma^2$$
 
 ### Derivation components:
-1.  **$\text{Bias}\left[\hat{f}(\mathbf{x})\right] = \mathbb{E}_D\left[\hat{f}(\mathbf{x}; D)\right] - f(\mathbf{x})$**
+1.  **$\text{Bias}\left$\hat{f}(\mathbf{x})\right$
+
+ = \mathbb{E}_D\left$\hat{f}(\mathbf{x}; D)\right$
+
+ - f(\mathbf{x})$**
     Measures how much the average prediction over all possible datasets differs from the true underlying function. High bias indicates underfitting.
-2.  **$\text{Var}\left[\hat{f}(\mathbf{x})\right] = \mathbb{E}_D\left[ \left( \hat{f}(\mathbf{x}; D) - \mathbb{E}_D[\hat{f}(\mathbf{x}; D)] \right)^2 \right]$**
+2.  **$\text{Var}\left$\hat{f}(\mathbf{x})\right$
+
+ = \mathbb{E}_D\left$ \left( \hat{f}(\mathbf{x}; D) - \mathbb{E}_D$\hat{f}(\mathbf{x}; D)$
+
+ \right)^2 \right$
+
+$**
     Measures the sensitivity of the model's prediction to the specific dataset $D$ it was trained on. High variance indicates overfitting.
 3.  **$\sigma^2$ (Irreducible Error)**
     The minimum possible error limit that cannot be eliminated regardless of the model chosen.
@@ -1028,7 +1201,7 @@ $$\mathbb{E}_D \left[ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right] = \tex
          |      /     \___/      \ 
          |     /       _ _        \ Bias^2
          |    /      /     \       \
-         +-----------------------------------> Model Complexity
+         +--> Model Complexity
                     Low Complexity     High Complexity
                      (Underfitting)     (Overfitting)
 ```
@@ -1036,7 +1209,7 @@ $$\mathbb{E}_D \left[ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right] = \tex
 ## Summary of the Supervised Learning Process
 
 | Step | Goal / Action | Key Mathematical Object |
-| :--- | :--- | :--- |
+| : | : | : |
 | **1. Model Setup** | Establish mapping parameterized by $\mathbf{\theta}$. | $f(\mathbf{x}; \mathbf{\theta})$ |
 | **2. Performance Measure** | Define penalty for incorrect predictions. | Loss function $L(y, f(\mathbf{x}))$ |
 | **3. Objective Formulation** | Minimize empirical loss + complexity penalty. | $R_{reg}(\mathbf{\theta}) = R_{emp}(\mathbf{\theta}) + \lambda \Omega(\mathbf{\theta})$ |
