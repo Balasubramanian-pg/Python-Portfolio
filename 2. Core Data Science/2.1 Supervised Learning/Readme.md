@@ -601,13 +601,13 @@ for step in range(20):
 
 ```mermaid
 flowchart TD
-    A[Real World Process] --> B[Unknown Distribution P(X,Y)]
-    B --> C[Sample Training Data]
-    C --> D[Choose Hypothesis Space]
-    D --> E[Define Loss Function]
-    E --> F[Optimization]
-    F --> G[Learned Model]
-    G --> H[Generalization]
+    A["Real World Process"] --> B["Unknown Distribution P(X,Y)"]
+    B --> C["Sample Training Data"]
+    C --> D["Choose Hypothesis Space"]
+    D --> E["Define Loss Function"]
+    E --> F["Optimization"]
+    F --> G["Learned Model"]
+    G --> H["Generalization"]
 ```
 
 # 26. Important Hidden Assumptions
@@ -648,155 +648,7 @@ Deep learning extends this framework by:
 * learning hierarchical representations
 * optimizing millions or billions of parameters
 
-Yet the core formulation remains unchanged:
 
-$$
-\min_{f\in\mathcal{H}}
-\hat{R}(f)
-$$
-
-# 29. Final Mathematical Summary
-
-Supervised learning consists of:
-
-## Data
-
-$$
-\mathcal{D}
-===========
-
-{
-(x_i,y_i)
-}_{i=1}^{N}
-$$
-
-## Hypothesis Space
-
-$$
-f \in \mathcal{H}
-$$
-
-## Loss Function
-
-$$
-L(y,f(x))
-$$
-
-## Objective
-
-$$
-f^*
-===
-
-\arg\min_{f\in\mathcal{H}}
-\frac{1}{N}
-\sum_{i=1}^{N}
-L(y_i,f(x_i))
-$$
-
-# 30. Final Takeaways
-
-Supervised learning is fundamentally:
-
-* statistical inference
-* function approximation
-* optimization under uncertainty
-
-Its central challenge is not merely fitting data.
-
-The true challenge is learning structure that generalizes beyond observed samples.
-
-# 31. Loss Functions and Risk Minimization
-
-To measure how good a hypothesis $f$ is, we define a loss function:
-
-$$
-L: \mathcal{Y} \times \mathcal{Y} \to \mathbb{R}_{\ge 0}
-$$
-
-The loss:
-
-$$
-L(y, f(\mathbf{x}))
-$$
-
-quantifies the penalty for predicting $f(\mathbf{x})$ when the true label is $y$.
-
-## Common Loss Functions
-
-### Mean Squared Error (MSE)
-
-$$
-L(y, f(\mathbf{x})) = (y - f(\mathbf{x}))^2
-$$
-
-### Absolute Error Loss
-
-$$
-L(y, f(\mathbf{x})) = |y - f(\mathbf{x})|
-$$
-
-### Cross Entropy Loss
-
-$$
-L(y, f(\mathbf{x}))
-===================
-
-*
-
-\left(
-y \log(f(\mathbf{x}))
-+
-(1 - y) \log(1 - f(\mathbf{x}))
-\right)
-$$
-
-## Expected Risk vs Empirical Risk
-
-### Expected Risk
-
-$$
-R(f)
-====
-
-\mathbb{E}_{(X,Y) \sim P}
-\left[
-L(Y, f(X))
-\right]
-$$
-
-Expanded form:
-
-$$
-R(f)
-====
-
-\iint_{\mathcal{X} \times \mathcal{Y}}
-L(y, f(\mathbf{x}))
-P(\mathbf{x}, y)
-, d\mathbf{x} , dy
-$$
-
-### Empirical Risk
-
-$$
-R_{emp}(f)
-==========
-
-\frac{1}{N}
-\sum_{i=1}^N
-L(y_i, f(\mathbf{x}_i))
-$$
-
-### Empirical Risk Minimization
-
-$$
-\hat{f}
-=======
-
-\arg\min_{f \in \mathcal{H}}
-R_{emp}(f)
-$$
 
 # 32. Regularization and Structural Risk Minimization
 
