@@ -12,10 +12,3 @@ Beyond centroid-based clustering (like K-Means), the unsupervised learning parad
    * Estimating the underlying probability density function that generated the dataset (e.g., Kernel Density Estimation, Normalizing Flows).
 4. **Association Rule Learning:**
    * Discovering interesting relations and co-occurrences between variables in large databases (e.g., Apriori, FP-Growth).
-
----
-
-Below is a detailed, mathematically rigorous explanation of **Principal Component Analysis (PCA)**, structured in the same academic format.
-
----
-
