@@ -897,6 +897,51 @@ $$
 \mathbf{\theta}^{(t+1)} = \mathbf{\theta}^{(t)} - \alpha \cdot \frac{1}{N} X^T \left( \sigma(X\mathbf{\theta}^{(t)}) - \mathbf{y} \right)
 $$
 
+# 35. Bias Variance Decomposition
+
+Assume the true relation is:
+
+$$
+y = f(\mathbf{x}) + \epsilon
+$$
+
+where:
+
+$$
+\mathbb{E}[\epsilon] = 0
+$$
+
+and:
+
+$$
+\operatorname{Var}(\epsilon) = \sigma^2
+$$
+
+The expected squared prediction error becomes:
+
+$$
+\mathbb{E}_D \left[ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right] = \operatorname{Bias}(\hat{f}(\mathbf{x}))^2 + \operatorname{Var}(\hat{f}(\mathbf{x})) + \sigma^2
+$$
+
+## Bias
+
+$$
+\operatorname{Bias}(\hat{f}(\mathbf{x})) = \mathbb{E}_D \left[ \hat{f}(\mathbf{x}; D) \right] - f(\mathbf{x})
+$$
+
+## Variance
+
+$$
+\operatorname{Var}(\hat{f}(\mathbf{x})) = \mathbb{E}_D \left[ \left( \hat{f}(\mathbf{x}; D) - \mathbb{E}_D \left[ \hat{f}(\mathbf{x}; D) \right] \right)^2 \right]
+$$
+
+## Irreducible Error
+
+$$
+\sigma^2
+$$
+
+represents environmental noise that cannot be eliminated.
 
 # 36. Summary Table
 
