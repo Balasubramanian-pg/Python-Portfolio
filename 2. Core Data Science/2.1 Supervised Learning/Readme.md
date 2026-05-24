@@ -24,7 +24,7 @@ where:
 The learning algorithm observes examples:
 
 $$
-(x_i, y_i)
+($$x_i$$, $$y_i$$)
 $$
 and attempts to infer the hidden relationship governing the data generation process.
 
