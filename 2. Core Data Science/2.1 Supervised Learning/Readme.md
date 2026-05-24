@@ -322,22 +322,13 @@ Since the true distribution is unknown, we approximate risk using the dataset.
 The empirical risk is:
 
 $$
-\hat{R}(f)
-==========
-
-\frac{1}{N}
-\sum_{i=1}^{N}
-L(y_i,f(x_i))
+\hat{R}(f) = \frac{1}{N} \sum_{i=1}^{N} L(y_i, f(x_i))
 $$
 
 Learning algorithms solve:
 
 $$
-f^*
-===
-
-\arg\min_{f\in\mathcal{H}}
-\hat{R}(f)
+f^* = \arg\min_{f \in \mathcal{H}} \hat{R}(f)
 $$
 
 This principle is called empirical risk minimization (ERM).
@@ -360,11 +351,7 @@ Most supervised learning problems become optimization problems.
 ## General Optimization Objective
 
 $$
-\theta^*
-========
-
-\arg\min_{\theta}
-\hat{R}(\theta)
+\theta^* = \arg\min_{\theta} \hat{R}(\theta)
 $$
 
 where:
@@ -376,18 +363,13 @@ where:
 Model:
 
 $$
-\hat{y}=w^Tx+b
+\hat{y} = w^T x + b
 $$
 
 Objective:
 
 $$
-J(w,b)
-======
-
-\frac{1}{N}
-\sum_{i=1}^{N}
-(y_i-(w^Tx_i+b))^2
+J(w,b) = \frac{1}{N} \sum_{i=1}^{N} (y_i - (w^T x_i + b))^2
 $$
 
 # 14. Gradient Descent
@@ -395,13 +377,7 @@ $$
 Parameters are updated iteratively:
 
 $$
-\theta_{t+1}
-============
-
-## \theta_t
-
-\eta
-\nabla_\theta J(\theta_t)
+\theta_{t+1} = \theta_t - \eta \nabla_\theta J(\theta_t)
 $$
 
 where:
@@ -418,22 +394,19 @@ This ability is called generalization.
 ## Training Error
 
 $$
-\hat{R}_{train}(f)
+\hat{R}_{\text{train}}(f)
 $$
 
 ## Test Error
 
 $$
-\hat{R}_{test}(f)
+\hat{R}_{\text{test}}(f)
 $$
 
 Good models satisfy:
 
 $$
-\hat{R}*{train}(f)
-\approx
-\hat{R}*{test}(f)
-$$
+\hat{R}_{\text{train}}(f) \approx \hat{R}_{\text{test}}(f)
 
 # 16. Overfitting
 
