@@ -17,16 +17,15 @@ $$
 
 where:
 
-* (\mathcal{X}) represents the input space
-* (\mathcal{Y}) represents the output space
-* (f) is the predictive function
+- $\mathcal{X}$ represents the input space
+- $\mathcal{Y}$ represents the output space
+- $f$ is the predictive function
 
 The learning algorithm observes examples:
 
-$
+$$
 (x_i, y_i)
-$
-
+$$
 and attempts to infer the hidden relationship governing the data generation process.
 
 This framework underlies:
