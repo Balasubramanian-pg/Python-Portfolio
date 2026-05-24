@@ -2,8 +2,6 @@
 
 Density-based clustering algorithms identify clusters as continuous, high-density regions in the feature space separated by regions of low density. Unlike centroid-based methods (such as K-Means), density-based algorithms do not assume spherical cluster shapes and do not require the number of clusters $K$ to be specified a priori.
 
----
-
 ## 1. Formal Mathematical Definitions of DBSCAN
 
 **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise) relies on two primary user-defined hyperparameters:
@@ -36,8 +34,6 @@ A point $\mathbf{x}$ is classified based on the cardinality of its neighborhood 
                  * (Noise Point - Isolated)
 ```
 
----
-
 ### Definition 3: Direct Density-Reachability
 A point $\mathbf{p}$ is *directly density-reachable* from a point $\mathbf{q}$ with respect to $\epsilon$ and $\text{MinPts}$ if:
 1.  $\mathbf{p} \in N_{\epsilon}(\mathbf{q})$
@@ -64,8 +60,6 @@ A cluster $C \subseteq X$ is a non-empty subset satisfying two conditions:
 1.  **Maximality:** If $\mathbf{p} \in C$ and $\mathbf{q}$ is density-reachable from $\mathbf{p}$, then $\mathbf{q} \in C$.
 2.  **Connectivity:** For all $\mathbf{p}, \mathbf{q} \in C$, $\mathbf{p}$ is density-connected to $\mathbf{q}$.
 
----
-
 ## 2. The DBSCAN Algorithm
 
 DBSCAN discovers clusters by propagating connectivity starting from core points:
@@ -81,8 +75,6 @@ DBSCAN discovers clusters by propagating connectivity starting from core points:
         *   Mark $\mathbf{p}$ as visited and assign it to cluster $C$.
         *   Compute $N_{\epsilon}(\mathbf{p})$. If $\mathbf{p}$ is a core point, append all points in $N_{\epsilon}(\mathbf{p})$ to $Q$.
 4.  **Iteration:** Repeat until all points in the dataset are marked as visited.
-
----
 
 ## 3. Dealing with Multi-Density Data: OPTICS
 
@@ -131,8 +123,6 @@ Plotting the reachability distance of each point in the resulting order yields a
        Valleys = Dense Clusters
 ```
 
----
-
 ## 4. Advantages, Limitations, and Computational Complexity
 
 ### Advantages
@@ -149,8 +139,6 @@ Plotting the reachability distance of each point in the resulting order yields a
 *   **Worst-Case Time Complexity:** $O(N^2)$ without indexing, where $N$ is the number of points, because calculating the $\epsilon$-neighborhood for every point requires pairwise distance computations.
 *   **Optimized Time Complexity:** $O(N \log N)$ when using spatial index structures like $R^*$-Trees or $KD$-Trees (valid for low-to-moderate dimensions $d \le 10$).
 *   **Space Complexity:** $O(N)$ to store point states, neighborhoods, and cluster labels.
-
----
 
 ## References
 
