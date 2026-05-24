@@ -914,25 +914,25 @@ $$
 and:
 
 $$
-\operatorname{Var}(\epsilon) = \sigma^2
+\text{Var}(\epsilon) = \sigma^2
 $$
 
 The expected squared prediction error becomes:
 
 $$
-\mathbb{E}_D \left[ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right] = \operatorname{Bias}(\hat{f}(\mathbf{x}))^2 + \operatorname{Var}(\hat{f}(\mathbf{x})) + \sigma^2
+\mathbb{E}_D \left[ \left( y - \hat{f}(\mathbf{x}; D) \right)^2 \right] = \text{Bias}(\hat{f}(\mathbf{x}))^2 + \text{Var}(\hat{f}(\mathbf{x})) + \sigma^2
 $$
 
 ## Bias
 
 $$
-\operatorname{Bias}(\hat{f}(\mathbf{x})) = \mathbb{E}_D \left[ \hat{f}(\mathbf{x}; D) \right] - f(\mathbf{x})
+\text{Bias}(\hat{f}(\mathbf{x})) = \mathbb{E}_D \left[ \hat{f}(\mathbf{x}; D) \right] - f(\mathbf{x})
 $$
 
 ## Variance
 
 $$
-\operatorname{Var}(\hat{f}(\mathbf{x})) = \mathbb{E}_D \left[ \left( \hat{f}(\mathbf{x}; D) - \mathbb{E}_D \left[ \hat{f}(\mathbf{x}; D) \right] \right)^2 \right]
+\text{Var}(\hat{f}(\mathbf{x})) = \mathbb{E}_D \left[ \left( \hat{f}(\mathbf{x}; D) - \mathbb{E}_D \left[ \hat{f}(\mathbf{x}; D) \right] \right)^2 \right]
 $$
 
 ## Irreducible Error
