@@ -9,29 +9,59 @@ This Python script acts as a bridge. It crawls your local Obsidian folder, parse
 ### The Execution Flow
 
 Before we dive into the code, here is the exact sequence of operations the script performs.
-
 ```mermaid
 graph TD
-    A[Start: Initialize Config & Auto-Install Dependencies] --> B[Resolve Local Assets: Download MathJax & Mermaid to Temp Dir]
-    B --> C[Begin Recursive Tree Traversal of Obsidian Vault]
-    C --> D{Is it a Folder or File?}
-    D -->|Folder| E[Calculate Heading Level & Check for 'Week' Node]
-    D -->|File| F[Read Markdown Content]
-    E --> G[Generate HTML Header & Apply Page Breaks]
-    F --> H[Phase 1: Clean Obsidian Syntax & Callouts]
-    H --> I[Phase 2: Normalize Code Blocks & Detect Languages]
-    I --> J[Phase 3: Extract & Protect LaTeX Math via Placeholders]
-    J --> K[Phase 4: Convert Cleaned Markdown to HTML]
-    K --> L[Phase 5: Re-inject Protected LaTeX Math]
-    L --> M[Append to Master HTML Content Buffer]
-    G --> N[Recurse into Sub-folders]
-    M --> N
-    N --> O[Master HTML Compilation Complete]
-    O --> P[Inject Global CSS, Fonts, and JS Configs]
-    P --> Q[Write Final HTML to Temp File]
-    Q --> R[Invoke Microsoft Edge Headless Mode]
-    R --> S[Render HTML to PDF with Virtual Time Budget]
-    S --> T[Cleanup Temp Files & Exit]
+    subgraph INIT["1. Initialization & Asset Caching"]
+        A[Start Script] --> B[Auto-Install: markdown, pygments]
+        B --> C[Load Config: Paths, Skip Lists, Regex]
+        C --> D[Locate Edge Executable]
+        D --> E[Resolve Local Assets: Cache MathJax & Mermaid]
+    end
+
+    subgraph TRAVERSE["2. Recursive Vault Traversal"]
+        E --> F[Initialize Tree Traversal at Root]
+        F --> G{Iterate Items: Natural Sort}
+        G --> H{Is Directory?}
+        H -->|Yes| I[Resolve Heading Level via Week Ancestry]
+        I --> J[Generate HTML Header & Named Page CSS]
+        J --> K[Recurse: Depth + 1]
+        K --> G
+        H -->|No| L{Is Markdown File?}
+        L -->|No| G
+        L -->|Yes| M[Read File Content]
+    end
+
+    subgraph PARSE["3. Markdown Parsing & Cleaning Pipeline"]
+        M --> N[Phase 1: Clean Obsidian Syntax]
+        N --> N1[Strip Comments & Wiki-Links]
+        N1 --> N2[Parse Callouts to HTML Alerts + SVG Icons]
+        N2 --> O[Phase 2: Normalize Code Blocks]
+        O --> O1[Dedent Code & Force Python Detection]
+        O1 --> P[Phase 3: Protect LaTeX Math]
+        P --> P1[Stitch Multi-line Math & Check Complexity]
+        P1 --> P2[Extract Math to Placeholders]
+    end
+
+    subgraph HTML["4. HTML Generation & Assembly"]
+        P2 --> Q[Phase 4: Convert Markdown to HTML]
+        Q --> R[Phase 5: Re-inject LaTeX Math]
+        R --> S[Shift Internal Headings & Wrap in Sections]
+        S --> T[Append to Master HTML Buffer]
+        T --> G
+    end
+
+    subgraph RENDER["5. Final Assembly & Headless Rendering"]
+        G -->|Done| U[Generate TOC & Inject Global CSS/Fonts]
+        U --> V[Inject JS Configs: MathJax & Mermaid]
+        V --> W[Write Master HTML to Temp File]
+        W --> X[Build Edge Headless CLI Command]
+        X --> Y[Execute Edge: Render to PDF]
+        Y --> Z{Success?}
+        Z -->|Yes| AA[Print Success]
+        Z -->|No| AB[Print Edge Stderr]
+        AA --> AC[Cleanup Temp Files & Exit]
+        AB --> AC
+    end
 ```
 
 ## 2. Environment Setup and Configuration
