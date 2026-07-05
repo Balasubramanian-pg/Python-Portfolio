@@ -1,7 +1,3 @@
-Here is the complete, deep-dive documentation for your Obsidian-to-PDF compilation script. I have broken down every single module, design choice, and edge case in plain, direct English. No fluff, just a clear look at how this engine works under the hood.
-
-***
-
 # The Obsidian-to-PDF Compilation Engine: Complete Technical Documentation
 
 ## 1. High-Level Architecture and Purpose
